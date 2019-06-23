@@ -1,0 +1,63 @@
+- url: http://waag.org/
+  img: /img/partners/waag.png
+  type: formal
+
+- url: https://be.okfn.org/
+  img: /img/partners/ok-belgium.png
+  type: formal
+
+- url: https://codefor.fr
+  img: /img/partners/codeforfr.png
+  type: formal
+
+- url: http://www.codeforall.org/
+  img: /img/partners/codeforall.jpg
+  type: formal
+
+- url: http://www.gebruikercentraal.nl/
+  img: /img/partners/gebruikercentraal.png
+  type: informal
+
+- url: https://publiccode.net/
+  img: /img/partners/ffpc.png
+  type: informal
+
+- url: https://openstate.eu/nl/
+  img: /img/partners/openstate.png
+  type: informal
+
+- url: https://techsolidarity.nl/
+  img: /img/partners/techsolidarity.png
+  type: informal
+
+- url: http://www.ictu.nl/
+  img: /img/partners/ictu.jpg
+  type: informal
+
+- url: http://netdem.nl/nl/
+  img: /img/partners/netdem.png
+  type: informal
+
+- url: https://www.datalabamsterdam.nl/
+  img: /img/partners/datalabamsterdam.png
+  type: informal
+
+- url: https://www.open-overheid.nl/
+  img: /img/partners/openoverheid.jpg
+  type: informal
+
+- url: https://www.clowder.it/
+  img: /img/partners/clowder-pink.png
+  type: company
+
+- url: http://www.codefor.eu/
+  no-img: /img/partners/codeforeurope.png
+
+- url: https://data.overheid.nl/
+  no-img: /img/partners/datapuntoverheid.jpg
+
+- url: https://v2.nl/
+
+- url: https://developer.overheid.nl
+
+- name: hacker spaces
