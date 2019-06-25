@@ -259,6 +259,91 @@
       </section>
 -->
 
+      <!--
+      <section>
+        <h2>Meehelpen organiseren?</h2>
+        <p>Wil je meehelpen met het organiseren van meetups, conferenties, vrijwilligersprojecten, hackathons, of heb je goede ideeën? Dan horen we natuurlijk heel graag van je! Stuur ons snel een e-mail, dan maken we een afspraak.</p>
+        <p>Meld je aan op onze <a href="https://part-up.com/tribes/open-data-and-civic-innovation?show=false">Part-up</a> pagina voor deelname aan projecten.</p>
+        <a href="mailto:info@codefor.nl" class="cta_button">Stuur ons een e-mail</a>
+      </section>
+      -->
+
+      <section class="centered_content">
+        <style>
+          .partner-img {
+            max-width: 140px;
+            max-height: 140px;
+            margin: auto;
+          }
+          .partner-img-wrapper {
+            width: 140px;
+            height: 140px;
+            display: inline-block;
+            background: #fff;
+            border: 10px solid white;
+            box-shadow: #eee 0 0 40px;
+            margin: 20px;
+            vertical-align: top;
+          }
+        </style>
+
+        <a name="partners"></a>
+        <h1>Code for All <b>Affiliate Partners</b></h1>
+        <p>Lokale organisaties die via Code for NL officieel aangesloten zijn op het internationale Code for All netwerk:</p>
+
+        <center>
+
+        {% for partner in site.data.partners %}
+
+          {% if partner.img and partner.type == "formal" %}
+
+            <a class="partner-img-wrapper" href="{{ partner.url }}"><img class="partner-img" src="{{ partner.img }}"></a>
+
+          {% endif %}
+
+        {% endfor %}
+
+        </center>
+
+        <h1>Samenwerkingspartners</h1>
+        <p>Organisaties waarmee wij onze activiteiten ondernemen en waar we regelmatig samenkomen:</p>
+
+        <center>
+
+        {% for partner in site.data.partners %}
+
+          {% if partner.img and partner.type != "formal" %}
+
+            <a class="partner-img-wrapper" href="{{ partner.url }}"><img class="partner-img" src="{{ partner.img }}"></a>
+
+          {% endif %}
+
+        {% endfor %}
+
+        </center>
+
+        <!--
+                <h1>Partnerprojecten</h1>
+
+                <h2><a href="https://clarity.codefor.nl/">Clarity</a></h2>
+
+                <h2><a href="https://e-dem.nl/">E-DEM</a></h2>
+
+                <!--
+
+                <h2><a href="https://discipl.org/">Discipl</a></h2>
+
+                -->
+
+        <!--
+                <h1>Fellowships</h1>
+
+                <h2><a href="https://www.datalabamsterdam.nl">Gemeente Amsterdam</a></h2>
+
+                <h2><a href="https://e52.nl/smart-society-eindhoven-7-schakel-een-programmeur-in/">Gemeente Eindhoven</a></h2>
+-->
+      </section>
+
       <section>
         <h1>Bestuur</h1>
 
@@ -323,90 +408,6 @@
         </center>
       </section>
 
-      <!--
-      <section>
-        <h2>Meehelpen organiseren?</h2>
-        <p>Wil je meehelpen met het organiseren van meetups, conferenties, vrijwilligersprojecten, hackathons, of heb je goede ideeën? Dan horen we natuurlijk heel graag van je! Stuur ons snel een e-mail, dan maken we een afspraak.</p>
-        <p>Meld je aan op onze <a href="https://part-up.com/tribes/open-data-and-civic-innovation?show=false">Part-up</a> pagina voor deelname aan projecten.</p>
-        <a href="mailto:info@codefor.nl" class="cta_button">Stuur ons een e-mail</a>
-      </section>
-      -->
-
-      <section class="centered_content">
-        <style>
-          .partner-img {
-            max-width: 140px;
-            max-height: 140px;
-            margin: auto;
-          }
-          .partner-img-wrapper {
-            width: 140px;
-            height: 140px;
-            display: inline-block;
-            background: #fff;
-            border: 10px solid white;
-            box-shadow: #eee 0 0 40px;
-            margin: 20px;
-            vertical-align: top;
-          }
-        </style>
-
-        <a name="partners"></a>
-        <h1>Code for All Affiliate Partners</h1>
-        <p>Locale organisaties die via Code for NL officieel aangesloten zijn op het internationale Code for All netwerk:</p>
-
-        <center>
-
-        {% for partner in site.data.partners %}
-
-          {% if partner.img and partner.type == "formal" %}
-
-            <a class="partner-img-wrapper" href="{{ partner.url }}"><img class="partner-img" src="{{ partner.img }}"></a>
-
-          {% endif %}
-
-        {% endfor %}
-
-        </center>
-
-        <h1>Samenwerkingspartners</h1>
-        <p>Organisaties waarmee wij onze activiteiten ondernemen en waar we regelmatig samenkomen:</p>
-
-        <center>
-
-        {% for partner in site.data.partners %}
-
-          {% if partner.img and partner.type != "formal" %}
-
-            <a class="partner-img-wrapper" href="{{ partner.url }}"><img class="partner-img" src="{{ partner.img }}"></a>
-
-          {% endif %}
-
-        {% endfor %}
-
-        </center>
-
-        <!--
-                <h1>Partnerprojecten</h1>
-
-                <h2><a href="https://clarity.codefor.nl/">Clarity</a></h2>
-
-                <h2><a href="https://e-dem.nl/">E-DEM</a></h2>
-
-                <!--
-
-                <h2><a href="https://discipl.org/">Discipl</a></h2>
-
-                -->
-
-        <!--
-                <h1>Fellowships</h1>
-
-                <h2><a href="https://www.datalabamsterdam.nl">Gemeente Amsterdam</a></h2>
-
-                <h2><a href="https://e52.nl/smart-society-eindhoven-7-schakel-een-programmeur-in/">Gemeente Eindhoven</a></h2>
--->
-      </section>
     </div>
   </main>
   <footer>
