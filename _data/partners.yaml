@@ -14,40 +14,44 @@
   img: /img/partners/codeforall.jpg
   type: formal
 
-- url: http://www.gebruikercentraal.nl/
-  img: /img/partners/gebruikercentraal.png
-  type: informal
-
-- url: https://publiccode.net/
-  img: /img/partners/ffpc.png
-  type: informal
-
-- url: https://openstate.eu/nl/
-  img: /img/partners/openstate.png
-  type: informal
-
-- url: https://techsolidarity.nl/
-  img: /img/partners/techsolidarity.png
-  type: informal
-
 - url: http://www.ictu.nl/
   img: /img/partners/ictu.jpg
   type: informal
 
-- url: http://netdem.nl/nl/
-  img: /img/partners/netdem.png
+- url: https://www.rotterdam.nl/
+  img: /img/partners/rotterdam.jpg
   type: informal
 
 - url: https://www.datalabamsterdam.nl/
   img: /img/partners/datalabamsterdam.png
   type: informal
 
+- url: http://netdem.nl/nl/
+  img: /img/partners/netdem.png
+  type: informal
+
+- url: https://publiccode.net/
+  img: /img/partners/ffpc.png
+  type: informal
+
 - url: https://www.open-overheid.nl/
   img: /img/partners/openoverheid.jpg
   type: informal
 
+- url: http://www.gebruikercentraal.nl/
+  img: /img/partners/gebruikercentraal.png
+  type: informal
+
+- url: https://techsolidarity.nl/
+  img: /img/partners/techsolidarity.png
+  type: informal
+
+- url: https://openstate.eu/nl/
+  img: /img/partners/openstate.png
+  type: informal
+
 - url: https://www.clowder.it/
-  img: /img/partners/clowder-pink.png
+  no-img: /img/partners/clowder-pink.png
   type: company
 
 - url: http://www.codefor.eu/
