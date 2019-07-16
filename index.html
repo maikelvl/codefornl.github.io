@@ -151,65 +151,25 @@
       <section>
         <h1>Bestuur</h1>
 
+        {% for bestuurslid in site.data.bestuur %}
+
         <div class="persoon">
-          <img class="pasfoto" src="/img/milo.jpg">
+          <img class="pasfoto" src="{{ bestuurslid.img }}">
           <p>
-            Milo van der Linden<br>
-            voorzitter<br>
-            <a href="mailto:milo@codefor.nl">milo@codefor.nl</a>
+            {{ bestuurslid.name }}<br>
+            {{ bestuurslid.function }}<br>
+            <a href="{{ bestuurslid.email }}">{{ bestuurslid.email }}</a>
           </p>
           <p class="social">
-            <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/milovanderlinden/"></a>
-            <a class="twitterBtn smGlobalBtn" href="https://twitter.com/miblon"></a>
-            <a class="githubBtn smGlobalBtn" href="https://github.com/milovanderlinden"></a>
+            {% if bestuurslid.linkedin %}<a class="linkedinBtn smGlobalBtn" href="{{ bestuurslid.linkedin }}"></a>{% endif %}
+            {% if bestuurslid.twitter %}<a class="twitterBtn smGlobalBtn" href="{{ bestuurslid.twitter }}"></a>{% endif %}
+            {% if bestuurslid.github %}<a class="githubBtn smGlobalBtn" href="{{ bestuurslid.github }}"></a>{% endif %}
+            {% if bestuurslid.website %}<a class="websiteBtn smGlobalBtn" href="{{ bestuurslid.website }}"></a>{% endif %}
           </p>
         </div>
 
-        <div class="persoon">
-          <img class="pasfoto" src="/img/johan.jpg">
-          <p>
-            Johan Groenen<br>
-            secretaris<br>
-            <a href="mailto:johan@codefor.nl">johan@codefor.nl</a>
-          </p>
-          <p class="social">
-            <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/jgroenen/"></a>
-            <a class="twitterBtn smGlobalBtn" href="https://twitter.com/jpagroenen"></a>
-            <a class="githubBtn smGlobalBtn" href="https://github.com/jgroenen"></a>
-            <a class="websiteBtn smGlobalBtn" href="http://www.jgroenen.nl"></a>
-          </p>
-        </div>
+        {% endfor %}
 
-        <div class="persoon">
-          <img class="pasfoto" src="/img/ivonne.jpg">
-          <p>
-            Ivonne Jansen - Dings<br>
-            penningmeester<br>
-            <a href="mailto:ivonne@codefor.nl">ivonne@codefor.nl</a>
-          </p>
-          <p class="social">
-            <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/ivonnejansendings/"></a>
-            <a class="twitterBtn smGlobalBtn" href="https://twitter.com/ivonnedings"></a>
-          </p>
-        </div>
-
-        <div class="persoon">
-          <img class="pasfoto" src="/img/edo.jpg">
-          <p>
-            Edo Plantinga*<br>
-            NL Design System<br>
-            <a href="mailto:edo@codefor.nl">edo@codefor.nl</a>
-          </p>
-          <p class="social">
-            <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/edoplantinga"></a>
-            <a class="twitterBtn smGlobalBtn" href="https://twitter.com/edoplantinga"></a>
-            <a class="websiteBtn smGlobalBtn" href="https://designsystem.gebruikercentraal.nl/"></a>
-          </p>
-        </div>
-
-        <center>
-          <p>* wordt nog bij KvK ingeschreven</p>
-        </center>
       </section>
 
       <section>

@@ -1,0 +1,36 @@
+- name: Milo van der Linden
+  function: voorzitter
+  email: milo@codefor.nl
+  img: /img/milo.jpg
+  twitter: https://twitter.com/miblon
+  github: https://github.com/milovanderlinden
+
+- name: Johan Groenen
+  function: secretaris
+  email: johan@codefor.nl
+  img: /img/johan.jpg
+  linkedin: https://www.linkedin.com/in/jgroenen/
+  twitter: https://twitter.com/jpagroenen
+  github: https://github.com/jgroenen
+  website: https://www.jgroenen.nl
+
+- name: Ivonne Jansen - Dings
+  function: penningmeester
+  email: ivonne@codefor.nl
+  img: /img/ivonne.jpg
+  linkedin: https://www.linkedin.com/in/ivonnejansendings/
+  twitter: https://twitter.com/ivonnedings
+
+- name: Edo Plantinga
+  function: commissaris
+  email: edo@codefor.nl
+  img: /img/edo.jpg
+  linkedin: https://www.linkedin.com/in/edoplantinga/
+  twitter: https://twitter.com/edoplantinga
+
+- name: Sander van Waal
+  function: commissaris
+  email: sander@waag.org
+  img: /img/sander.jpg
+  linkedin: https://www.linkedin.com/in/sandervanderwaal/
+  twitter: https://twitter.com/sandervdwaal
