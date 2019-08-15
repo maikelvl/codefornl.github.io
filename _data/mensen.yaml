@@ -1,11 +1,21 @@
 - name: Milo van der Linden
+  organisation: bestuur
   function: voorzitter
   email: milo@codefor.nl
   img: /img/milo.jpg
   twitter: https://twitter.com/miblon
   github: https://github.com/milovanderlinden
 
+- name: Ivonne Jansen - Dings
+  organisation: bestuur
+  function: penningmeester
+  email: ivonne@codefor.nl
+  img: /img/ivonne.jpg
+  linkedin: https://www.linkedin.com/in/ivonnejansendings/
+  twitter: https://twitter.com/ivonnedings
+
 - name: Johan Groenen
+  organisation: bestuur
   function: secretaris
   email: johan@codefor.nl
   img: /img/johan.jpg
@@ -14,14 +24,8 @@
   github: https://github.com/jgroenen
   website: https://www.jgroenen.nl
 
-- name: Ivonne Jansen - Dings
-  function: penningmeester
-  email: ivonne@codefor.nl
-  img: /img/ivonne.jpg
-  linkedin: https://www.linkedin.com/in/ivonnejansendings/
-  twitter: https://twitter.com/ivonnedings
-
 - name: Edo Plantinga
+  organisation: bestuur
   function: commissaris
   email: edo@codefor.nl
   img: /img/edo.jpg
@@ -29,8 +33,16 @@
   twitter: https://twitter.com/edoplantinga
 
 - name: Sander van Waal
+  organisation: bestuur
   function: commissaris
   email: sander@waag.org
   img: /img/sander.jpg
   linkedin: https://www.linkedin.com/in/sandervanderwaal/
   twitter: https://twitter.com/sandervdwaal
+
+- name: Safia Akkus
+  organisation: programma
+  function: community manager
+  email: s.akkus@amsterdam.nl
+  img: /img/safia.png
+  linkedin: https://www.linkedin.com/in/safia-akkus-22257247/
