@@ -26,7 +26,7 @@
 
 - name: Edo Plantinga
   organisation: bestuur
-  function: commissaris
+  function: bestuurslid
   email: edo@codefor.nl
   img: /img/edo.jpg
   linkedin: https://www.linkedin.com/in/edoplantinga/
@@ -34,7 +34,7 @@
 
 - name: Sander van Waal
   organisation: bestuur
-  function: commissaris
+  function: bestuurslid
   email: sander@waag.org
   img: /img/sander.jpg
   linkedin: https://www.linkedin.com/in/sandervanderwaal/
