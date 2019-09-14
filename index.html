@@ -63,7 +63,7 @@
 
           <p>Levende standaarden, best practices, ethische vraagstukken. Sluit aan op een actief netwerk van developers en designers voor uitwisselen van kennis, ervaring en code. In samenwerking met <a href="#partners">onze partners</a> organiseren we regelmatig meetups om met elkaar kennis te maken, ideeën te delen en samenwerkingen aan te gaan.</p>
 
-          <p>Code for NL is aangesloten op het internationale Code for All netwerk van #civictech organisaties. Jaarlijks zijn er een aantal conferenties waar je vakgenoten kunt ontmoeten van over de hele wereld.</p>
+          <p>Code for NL is aangesloten op het internationale Code for All netwerk van #civictech organisaties. Jaarlijks zijn er een aantal conferenties waar je inspirerende vakgenoten kunt ontmoeten van over de hele wereld.</p>
 
           <a href="http://events.codefor.nl/" class="cta_button">Bekijk onze agenda</a>
       </section>
@@ -73,7 +73,7 @@
 
           <p>Ben je als overheid op zoek naar bestaande oplossingen, informatie over digitale mogelijkheden, of open source projecten van andere overheden om bij aan te sluiten? Wij helpen graag!</p>
           <p>In samenwerking met <a href="#partners">onze partners</a> zorgen we bijvoorbeeld voor een actueel overzicht van projecten en applicaties op het gebied van digitale overheid.</p>
-          <p>Daarnaast komen we graag langs voor een college of werkgroep over onderwerpen binnen ons vakgebied, zoals open source samenwerking, data science, kunstmatige intelligentie, ethiek en tech, of api's / web services.</p>
+          <p>Daarnaast komen experts uit ons netwerk graag langs voor een college of werkgroep over onderwerpen binnen ons vakgebied, zoals open source samenwerking, data science, kunstmatige intelligentie, ethiek en tech, of api's / web services.</p>
 
           <a href="mailto:info@codefor.nl" class="cta_button">Mail ons</a>
       </section>
@@ -129,14 +129,31 @@
 
         </center>
 
-        <h1>Samenwerkingspartners</h1>
-        <p>Organisaties waarmee wij onze activiteiten ondernemen en waar we regelmatig samenkomen:</p>
+        <h1>Programmapartners</h1>
+        <p>Organisaties waarmee we actief samenwerken in programma's:</p>
 
         <center>
 
         {% for partner in site.data.partners %}
 
-          {% if partner.img and partner.type != "formal" %}
+          {% if partner.img and partner.type == "program" %}
+
+            <a class="partner-img-wrapper" href="{{ partner.url }}"><img class="partner-img" src="{{ partner.img }}"></a>
+
+          {% endif %}
+
+        {% endfor %}
+
+        </center>
+
+        <h1>Overige partners</h1>
+        <p>Organisaties waarmee wij af en toe activiteiten ondernemen:</p>
+
+        <center>
+
+        {% for partner in site.data.partners %}
+
+          {% if partner.img and partner.type != "formal" and partner.type != "program" %}
 
             <a class="partner-img-wrapper" href="{{ partner.url }}"><img class="partner-img" src="{{ partner.img }}"></a>
 

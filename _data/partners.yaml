@@ -22,9 +22,17 @@
   img: /img/partners/rotterdam.jpg
   type: informal
 
+- url: https://www.vngrealisatie.nl/
+  img: /img/partners/vng_realisatie.jpg
+  type: program
+
+- url: https://www.cbs.nl/
+  img: /img/partners/cbs.png
+  type: program
+
 - url: https://www.datalabamsterdam.nl/
   img: /img/partners/datalabamsterdam.png
-  type: informal
+  type: program
 
 - url: http://netdem.nl/nl/
   img: /img/partners/netdem.png
@@ -40,7 +48,7 @@
 
 - url: http://www.gebruikercentraal.nl/
   img: /img/partners/gebruikercentraal.png
-  type: informal
+  type: program
 
 - url: https://techsolidarity.nl/
   img: /img/partners/techsolidarity.png
