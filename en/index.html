@@ -11,7 +11,8 @@
   <meta property="og:url" content="http://www.codefor.nl/en/">
   <meta property="og:site_name" content="Code for NL">
   <meta property="og:title" name="title" content="Code for NL">
-  <meta property="og:description" name="description" content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
+  <meta property="og:description" name="description"
+    content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
   <meta property="og:image" content="http://www.codefor.nl/img/larger_CfNL.png">
   <meta name="keywords" content="code, for, nl">
   <link rel="image_src" href="/img/larger_CfNL.png" />
@@ -51,7 +52,8 @@
           and society as a whole.
         </p>
         <p class="headline">
-          Code for NL is a governing partner of the international <a href="https://codeforall.org">Code for All</a> network.
+          Code for NL is a governing partner of the international <a href="https://codeforall.org">Code for All</a>
+          network.
         </p>
       </section>
 
@@ -137,17 +139,20 @@
             <a href="mailto:{{ bestuurslid.email }}">{{ bestuurslid.email }}</a>
           </p>
           <p class="social">
-            {% if bestuurslid.linkedin %}<a class="linkedinBtn smGlobalBtn" href="{{ bestuurslid.linkedin }}"></a>{% endif %}
-            {% if bestuurslid.twitter %}<a class="twitterBtn smGlobalBtn" href="{{ bestuurslid.twitter }}"></a>{% endif %}
+            {% if bestuurslid.linkedin %}<a class="linkedinBtn smGlobalBtn"
+              href="{{ bestuurslid.linkedin }}"></a>{% endif %}
+            {% if bestuurslid.twitter %}<a class="twitterBtn smGlobalBtn"
+              href="{{ bestuurslid.twitter }}"></a>{% endif %}
             {% if bestuurslid.github %}<a class="githubBtn smGlobalBtn" href="{{ bestuurslid.github }}"></a>{% endif %}
-            {% if bestuurslid.website %}<a class="websiteBtn smGlobalBtn" href="{{ bestuurslid.website }}"></a>{% endif %}
+            {% if bestuurslid.website %}<a class="websiteBtn smGlobalBtn"
+              href="{{ bestuurslid.website }}"></a>{% endif %}
           </p>
         </div>
 
         {% endfor %}
       </section>
 
-<!--
+      <!--
       <section class="centered_content">
         <h1>Partners</h1>
 
@@ -205,7 +210,8 @@
         <h2>Contact</h2>
         <p class="social">
           Stichting <b>Code for NL</b><br />
-          KvK <a target="_blank" href="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=69749477">69749477</a><br />
+          KvK <a target="_blank"
+            href="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=69749477">69749477</a><br />
           Burg. de Joss. de Jongln. 8<br />
           3042 NH Rotterdam
         </p>
@@ -213,36 +219,28 @@
           <a class="githubBtn smGlobalBtn" href="https://github.com/codefornl" title="Code for NL Github"></a>
           <a class="twitterBtn smGlobalBtn" href="https://twitter.com/codefornl" title="Code for NL on Twitter"></a>
           <a class="slackBtn smGlobalBtn" href="http://praatmee.codefor.nl" title="Code for NL Slack"></a>
-          <a class="mediumBtn smGlobalBtn" href="https://medium.com/code-for-europe" title="Code for Europe Publications on Medium"></a>
+          <a class="mediumBtn smGlobalBtn" href="https://medium.com/code-for-europe"
+            title="Code for Europe Publications on Medium"></a>
           <a class="emailBtn smGlobalBtn" href="mailto://info@codefor.nl" title="E-mail Code for NL"></a>
         </p>
       </div>
     </div>
   </footer>
-  <!-- Piwik -->
+  <!-- Matomo -->
   <script type="text/javascript">
-    var _paq = _paq || [];
-    _paq.push(["setDomains", ["*.codefor.nl"]]);
+    var _paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
-    (function() {
-      var u = "//stats.waag.org/";
-      _paq.push(['setTrackerUrl', u + 'piwik.php']);
-      _paq.push(['setSiteId', '13']);
-      var d = document,
-        g = d.createElement('script'),
-        s = d.getElementsByTagName('script')[0];
-      g.type = 'text/javascript';
-      g.async = true;
-      g.defer = true;
-      g.src = u + 'piwik.js';
-      s.parentNode.insertBefore(g, s);
+    (function () {
+      var u = "//click.eubadges.eu/";
+      _paq.push(['setTrackerUrl', u + 'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
     })();
   </script>
-  <noscript>
-    <p><img src="//stats.waag.org/piwik.php?idsite=13" style="border:0;" alt="" /></p>
-  </noscript>
-  <!-- End Piwik Code -->
+  <!-- End Matomo Code -->
 </body>
 
 </html>

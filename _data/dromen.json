@@ -1,0 +1,119 @@
+[
+  {
+    "_id": 1,
+    "_authorid": 1,
+    "type": "dream",
+    "title": "Landelijke basisrichtlijnen voor de opslag van data die per toepassing uit te breiden zijn",
+    "solutions": [
+      {
+        "_id": 1,
+        "_authorid": 2,
+        "type": "solution",
+        "title": "Open, uitbreidbare data infrastructuur op basis van huidige basisregistraties",
+        "_dreamid": 1
+      },
+      {
+        "_id": 2,
+        "_authorid": 3,
+        "type": "solution",
+        "title": "Meer gerichte subsidie/financiering door ministeries om in de basis dingen te standaardiseren, in plaats van algemene innovatie budgetten",
+        "_dreamid": 1
+      }
+    ],
+    "problems": [
+      {
+        "_id": 1,
+        "type": "problem",
+        "_authorid": 4,
+        "title": "Richtlijnen kunnen verouderen en achterhaald worden",
+        "_dreamid": 1,
+        "solutions": [
+          {
+            "_id": 3,
+            "type": "solution",
+            "_authorid": 5,
+            "title": "Ontwikkel Code & Richtlijnen samen",
+            "_problemid": 1
+          }
+        ]
+      },
+      {
+        "_id": 2,
+        "_authorid": 4,
+        "type": "problem",
+        "title": "Politieke keuzes kunnen richtlijnen in de wielen rijden",
+        "solutions": [
+          {
+            "_id": 4,
+            "type": "solution",
+            "_authorid": 5,
+            "title": "Richtlijnen voornamelijk op Business en Basisvoorwaarden houden",
+            "_problemid": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "_authorid": 1,
+    "type": "dream",
+    "title": "Open source wat voor meerdere overheden inzetbaar is",
+    "solutions": [
+      {
+        "_id": 5,
+        "_authorid": 2,
+        "type": "solution",
+        "title": "Deelplatform voor overheden",
+        "_dreamid": 2
+      },
+      {
+        "_id": 6,
+        "_authorid": 3,
+        "type": "solution",
+        "title": "Verplichting om op bepaalde terreinen, waar open source bewezen efficientie & kwaliteitsverbetering oplevert bij schaal, in samenwerking met open source te werken (alleen open source afdwingen werkt niet, omdat je dan weer allemaal met eigen dingetjes gaat werken)",
+        "_dreamid": 2
+      }
+    ],
+    "problems": [
+      {
+        "_id": 4,
+        "type": "problem",
+        "_authorid": 4,
+        "title": "Onzekerheid over governance kunnen er voor zorgen dat overheden er niet in mee willen gaan",
+        "_dreamid": 2,
+        "solutions": [
+          {
+            "_id": 7,
+            "type": "solution",
+            "_authorid": 5,
+            "title": "Geef overheden betrouwbare Governance modellen en help met implementatie",
+            "_problemid": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "type": "dream",
+    "_authorid": 6,
+    "title": "Volledige onafhankelijkheid van Closed Source Software",
+    "solutions": [
+      {
+        "_id": 8,
+        "type": "solution",
+        "_authorid": 1,
+        "title": "Een goede community die blijft ontwikkelen",
+        "_dreamid": 3
+      },
+      {
+        "_id": 9,
+        "type": "solution",
+        "_authorid": 2,
+        "title": "Een goede community die blijft ontwikkelen",
+        "_dreamid": 3
+      }
+    ]
+  }
+]
