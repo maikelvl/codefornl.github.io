@@ -1,0 +1,45 @@
+---
+layout: default
+title: Code for NL
+lang: en
+permalink: /en/
+---
+<section>
+  <p class="headline">
+    <b>Code for NL</b> is the Dutch network of
+    developers and designers working on an open and fair
+    digital government and society.
+  </p>
+  <p class="headline">
+    Our goal is the successful
+    digital transformation of municipalities, other governments,
+    and society as a whole.
+  </p>
+  <p class="headline">
+    Code for NL is a governing partner of the international <a href="https://codeforall.org">Code for All</a>
+    network.
+  </p>
+</section>
+
+<section>
+  <h1>Organisation</h1>
+
+  {% for bestuurslid in site.data.mensen %}
+
+  <div class="persoon">
+    <img class="pasfoto" src="{{ bestuurslid.img }}">
+    <p>
+      {{ bestuurslid.name }}<br>
+      {{ bestuurslid.function_en }}<br>
+      <a href="mailto:{{ bestuurslid.email }}">{{ bestuurslid.email }}</a>
+    </p>
+    <p class="social">
+      {% if bestuurslid.linkedin %}<a class="linkedinBtn smGlobalBtn" href="{{ bestuurslid.linkedin }}"></a>{% endif %}
+      {% if bestuurslid.twitter %}<a class="twitterBtn smGlobalBtn" href="{{ bestuurslid.twitter }}"></a>{% endif %}
+      {% if bestuurslid.github %}<a class="githubBtn smGlobalBtn" href="{{ bestuurslid.github }}"></a>{% endif %}
+      {% if bestuurslid.website %}<a class="websiteBtn smGlobalBtn" href="{{ bestuurslid.website }}"></a>{% endif %}
+    </p>
+  </div>
+
+  {% endfor %}
+</section>

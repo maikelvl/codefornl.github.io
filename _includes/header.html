@@ -1,0 +1,26 @@
+<header>
+    <div class="wrapper" style="text-align: right">
+        <p>
+            {% if page.lang == "nl" %}
+            <a href="/en/" style="margin: 1em; color: #111">English version</a>
+            {% else %}
+            <a href="/" style="margin: 1em; color: #111">Nederlandse versie</a>
+            {% endif %}
+        </p>
+    </div>
+    <div class="wrapper">
+        {% if page.lang == "nl" %}
+        <h2>Samenwerken aan de<br>Digitale Overheid.</h2>
+        <a href="/en/" class="logo">
+            <img alt="&lt;/" src="/img/larger_CfNL.png">
+            <h1>Code for NL</h1>
+        </a>
+        {% else %}
+        <h2>Making government work<br>in the digital age.</h2>
+        <a href="/" class="logo">
+            <img alt="&lt;/" src="/img/larger_CfNL.png">
+            <h1>Code for NL</h1>
+        </a>
+        {% endif %}
+    </div>
+</header>

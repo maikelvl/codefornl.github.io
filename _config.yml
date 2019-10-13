@@ -1,0 +1,12 @@
+name: Code For NL
+defaulttags: 
+  - code
+  - for
+  - nl
+  - civic
+  - tech
+defaults:
+  - scope:
+      path: "img"
+    values:
+      image: true
