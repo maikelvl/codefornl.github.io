@@ -305,3 +305,36 @@ a {
     background-image: url('../img/social/Partup.png');
     background-size: 32px 32px;
 }
+.project {
+    margin-top: 40px;
+    background: #eee;
+    width: 100%;
+  }
+
+  .project img {
+    background: black;
+    min-height: 340px;
+    width: 100%;
+  }
+
+  .project p,
+  .project h1 {
+    margin: 20px;
+  }
+
+  .partner-img {
+    max-width: 140px;
+    max-height: 140px;
+    margin: auto;
+  }
+
+  .partner-img-wrapper {
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    background: #fff;
+    border: 10px solid white;
+    box-shadow: #eee 0 0 40px;
+    margin: 20px;
+    vertical-align: top;
+  }
