@@ -96,60 +96,34 @@ lang: nl
     netwerk:</p>
 
   <center>
-
-    {% for partner in site.data.partners %}
-
-    {% if partner.img and partner.type == "formal" %}
-
+    {% for partner in site.data.partners %}{% if partner.img and partner.type == "formal" %}
     <a class="partner-img-wrapper" href="{{ partner.url }}"><img class="partner-img" src="{{ partner.img }}"></a>
-
-    {% endif %}
-
-    {% endfor %}
-
+    {% endif %}{% endfor %}
   </center>
 
   <h1>Programmapartners</h1>
   <p>Organisaties waarmee we actief samenwerken in programma's:</p>
 
   <center>
-
-    {% for partner in site.data.partners %}
-
-    {% if partner.img and partner.type == "program" %}
-
+    {% for partner in site.data.partners %}{% if partner.img and partner.type == "program" %}
     <a class="partner-img-wrapper" href="{{ partner.url }}"><img class="partner-img" src="{{ partner.img }}"></a>
-
-    {% endif %}
-
-    {% endfor %}
-
+    {% endif %}{% endfor %}
   </center>
 
   <h1>Overige partners</h1>
   <p>Organisaties waarmee wij af en toe activiteiten ondernemen:</p>
 
   <center>
-
-    {% for partner in site.data.partners %}
-
-    {% if partner.img and partner.type != "formal" and partner.type != "program" %}
-
+    {% for partner in site.data.partners %}{% if partner.img and partner.type != "formal" and partner.type != "program" %}
     <a class="partner-img-wrapper" href="{{ partner.url }}"><img class="partner-img" src="{{ partner.img }}"></a>
-
-    {% endif %}
-
-    {% endfor %}
-
+    {% endif %}{% endfor %}
   </center>
 
 </section>
 
 <section>
   <h1>Organisatie</h1>
-
   {% for bestuurslid in site.data.mensen %}
-
   <div class="persoon">
     <img class="pasfoto" src="{{ bestuurslid.img }}">
     <p>
@@ -164,7 +138,6 @@ lang: nl
       {% if bestuurslid.website %}<a class="websiteBtn smGlobalBtn" href="{{ bestuurslid.website }}"></a>{% endif %}
     </p>
   </div>
-
   {% endfor %}
 </section>
 
