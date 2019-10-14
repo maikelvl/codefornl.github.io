@@ -338,3 +338,13 @@ a {
     margin: 20px;
     vertical-align: top;
   }
+
+  p.intro {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+p.example {
+    background: #eee;
+    padding: 1em;
+}

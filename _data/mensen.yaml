@@ -28,8 +28,9 @@
   twitter: https://twitter.com/jpagroenen
   github: https://github.com/jgroenen
   website: https://www.jgroenen.nl
-  groups: [board,ai-met-impact]
+  groups: [board,ibestuur,ai-met-impact]
   ai_sort: 6
+  ibestuur_sort: 2
 
 - name: Edo Plantinga
   organisation: bestuur
@@ -39,7 +40,8 @@
   img: /img/edo.jpg
   linkedin: https://www.linkedin.com/in/edoplantinga/
   twitter: https://twitter.com/edoplantinga
-  groups: [board,nl-design-system]
+  groups: [board,ibestuur,nl-design-system]
+  ibestuur_sort: 1
 
 - name: Sander van Waal
   organisation: bestuur
@@ -91,3 +93,24 @@
   linkedin: https://www.linkedin.com/in/chrisvast/
   groups: [ai-met-impact]
   ai_sort: 4
+
+- name: Hilbrand Bouwkamp
+  organisation: programma
+  email: hilbrand@h72.nl
+  img: /img/hilbrand.jpg
+  linkedin: https://www.linkedin.com/in/hilbrandbouwkamp/
+  twitter: https://twitter.com/hilbrand
+  github: https://github.com/hilbrand
+  website: http://www.h72.nl/
+  groups: [ibestuur]
+  ibestuur_sort: 3
+
+- name: Ad Gerrits
+  organisation: programma
+  email: info@ag4it.nl
+  img: /img/ad.png
+  linkedin: https://www.linkedin.com/in/adgerrits/
+  twitter: https://twitter.com/adgerrits
+  website: http://www.ag4it.nl/
+  groups: [ibestuur]
+  ibestuur_sort: 4

@@ -1,23 +1,11 @@
 ---
 layout: default
 permalink: /ibestuur/
+tagline: De tijd is rijp voor een open source overheid.
 lang: nl
 ---
 <section>
-    <h2 style="font-size: 1.8em">De tijd is rijp voor een open source overheid</h2>
     <h1 style="margin-top: 0.2em; color: #75CF9F">Winst op (tien) punten</h1>
-
-    <style>
-        p.intro {
-            font-size: 1.2em;
-            font-weight: 700;
-        }
-
-        p.example {
-            background: #eee;
-            padding: 1em;
-        }
-    </style>
 
     <p class="intro">Open source software is volwassen geworden. We kunnen veilig stellen dat we zonder open
         source software (OSS) het huidige internet niet meer zouden herkennen. Open source componenten zijn
@@ -167,57 +155,23 @@ lang: nl
 </section>
 <section>
     <h1>Auteurs</h1>
+    {% assign people = site.data.mensen | sort: 'ibestuur_sort' %}
+    {% for mens in people %}{% if mens.groups contains "ibestuur" %}
     <div class="persoon">
-        <img class="pasfoto"
-            src="http://api.ning.com/files/X8ImLw7zp9cZxj5cKePpinCLjN02Xik8QVrDTjZrHrAKsHJw90IwovkG5EdippQspwOtJ2rvq55ld-DeG7EpgwzZVNN6*FCK/Edo_zoals_edoplantinga.nl.JPG?width=184&height=184&crop=1%3A1">
+        <img class="pasfoto" src="{{ mens.img }}">
         <p>
-            Edo Plantinga<br>
-            <a href="mailto:edo@edoplantinga.nl">edo@edoplantinga.nl</a>
+            {{ mens.name }}<br>
+            {{ mens.function }}<br>
+            {% if mens.email %}<a href="mailto:{{ mens.email }}">{{ mens.email }}</a>{% else %}&nbsp;{% endif %}
         </p>
         <p class="social">
-            <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/edoplantinga/"></a>
-            <a class="twitterBtn smGlobalBtn" href="https://twitter.com/edoplantinga"></a>
+            {% if mens.linkedin %}<a class="linkedinBtn smGlobalBtn" href="{{ mens.linkedin }}"></a>{% endif %}
+            {% if mens.twitter %}<a class="twitterBtn smGlobalBtn" href="{{ mens.twitter }}"></a>{% endif %}
+            {% if mens.github %}<a class="githubBtn smGlobalBtn" href="{{ mens.github }}"></a>{% endif %}
+            {% if mens.website %}<a class="websiteBtn smGlobalBtn" href="{{ mens.website }}"></a>{% endif %}
         </p>
     </div>
-    <div class="persoon">
-        <img class="pasfoto" src="/img/johan.jpg">
-        <p>
-            Johan Groenen<br>
-            <a href="mailto:johan@codefor.nl">johan@codefor.nl</a>
-        </p>
-        <p class="social">
-            <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/jgroenen/"></a>
-            <a class="twitterBtn smGlobalBtn" href="https://twitter.com/jpagroenen"></a>
-            <a class="githubBtn smGlobalBtn" href="https://github.com/jgroenen"></a>
-            <a class="websiteBtn smGlobalBtn" href="http://www.jgroenen.nl"></a>
-        </p>
-    </div>
-    <div class="persoon">
-        <img class="pasfoto" src="https://avatars1.githubusercontent.com/u/1272873?s=400&v=4">
-        <p>
-            Hilbrand Bouwkamp<br>
-            <a href="mailto:hildbrand@h72.nl">hilbrand@h72.nl</a>
-        </p>
-        <p class="social">
-            <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/hilbrandbouwkamp/"></a>
-            <a class="twitterBtn smGlobalBtn" href="https://twitter.com/hilbrand"></a>
-            <a class="githubBtn smGlobalBtn" href="https://github.com/hilbrand"></a>
-            <a class="websiteBtn smGlobalBtn" href="http://www.h72.nl"></a>
-        </p>
-    </div>
-    <div class="persoon">
-        <img class="pasfoto"
-            src="https://img.codefor.nl/?url=https://account.computable.nl/img/ad_gerrits_1424114248.jpg&height=200&width=200">
-        <p>
-            Ad Gerrits<br>
-            <a href="maito:info@ag4it.nl">info@ag4it.nl</a>
-        </p>
-        <p class="social">
-            <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/adgerrits/"></a>
-            <a class="twitterBtn smGlobalBtn" href="https://twitter.com/adgerrits"></a>
-            <a class="websiteBtn smGlobalBtn" href="http://www.ag4it.nl"></a>
-        </p>
-    </div>
+    {% endif %}{% endfor %}
 </section>
 <section>
     <h2>Links bij het artikel</h2>
