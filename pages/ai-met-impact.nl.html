@@ -178,7 +178,11 @@ permalink: /ai-met-impact/
         <img class="pasfoto" src="{{ mens.img }}">
         <p>
             {{ mens.name }}<br>
+            {% if mens.groups contains "board" %}
+            adviseur<br>
+            {% else %}
             {{ mens.function }}<br>
+            {% endif %}
             {% if mens.email %}<a href="mailto:{{ mens.email }}">{{ mens.email }}</a>{% else %}&nbsp;{% endif %}
         </p>
         <p class="social">
