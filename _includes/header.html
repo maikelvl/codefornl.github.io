@@ -1,4 +1,5 @@
 <header>
+    {% if page.url == "/" %}
     <div class="wrapper" style="text-align: right">
         <p>
             {% if page.lang == "nl" %}
@@ -8,6 +9,7 @@
             {% endif %}
         </p>
     </div>
+    {% endif %}
     <div class="wrapper">
         <h2>{{ page.tagline }}</h2>
         {% if page.lang == "nl" %}
