@@ -100,14 +100,17 @@ permalink: /ai-met-impact/
 
     <p>Onderstaande data worden komende week vastgesteld.</p>
     {% for item in site.data.ai-met-impact-calendar %}
-    <div class="card {{item.cat}}">
-        <span class="card-title">{{item.date}}: #{{item.cat}} {{item.title}}</span>
-        {% if item.description %}
-            <p>{{ item.description }}</p>
-        {% endif %}
-        {% if item.signup-link %}
-            <p>Aanmelden kan op <a href="{{item.signup-link}}">{{item.signup-link}}</a></p>
-        {% endif %}
+    <div class="card {{item.cat}}" style="display: flex;">
+        <div class="card-label">{{item.cat}}</div>
+        <div style="margin-top: 10px">
+          <span class="card-title">{{item.date}}: #{{item.cat}} {{item.title}}</span>
+          {% if item.description %}
+              <p>{{ item.description }}</p>
+          {% endif %}
+          {% if item.signup-link %}
+              <p>Aanmelden kan op <a href="{{item.signup-link}}">{{item.signup-link}}</a></p>
+          {% endif %}
+        </div>
     </div>
     {% endfor %}
 
