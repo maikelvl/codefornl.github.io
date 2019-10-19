@@ -25,22 +25,23 @@ permalink: /en/
 <section>
   <h1>Organisation</h1>
 
-  {% for bestuurslid in site.data.mensen %}
+  {% for mens in site.data.mensen %}{% if mens.groups contains "board" %}
 
   <div class="persoon">
-    <img class="pasfoto" src="{{ bestuurslid.img }}">
+    <img class="pasfoto" src="{{ mens.img }}">
     <p>
-      {{ bestuurslid.name }}<br>
-      {{ bestuurslid.function_en }}<br>
-      <a href="mailto:{{ bestuurslid.email }}">{{ bestuurslid.email }}</a>
+      {{ mens.name }}<br>
+      {{ mens.function_en }}<br>
+      <a href="mailto:{{ mens.email }}">{{ mens.email }}</a>
     </p>
     <p class="social">
-      {% if bestuurslid.linkedin %}<a class="linkedinBtn smGlobalBtn" href="{{ bestuurslid.linkedin }}"></a>{% endif %}
-      {% if bestuurslid.twitter %}<a class="twitterBtn smGlobalBtn" href="{{ bestuurslid.twitter }}"></a>{% endif %}
-      {% if bestuurslid.github %}<a class="githubBtn smGlobalBtn" href="{{ bestuurslid.github }}"></a>{% endif %}
-      {% if bestuurslid.website %}<a class="websiteBtn smGlobalBtn" href="{{ bestuurslid.website }}"></a>{% endif %}
+      {% if mens.linkedin %}<a class="linkedinBtn smGlobalBtn" href="{{ mens.linkedin }}"></a>{% endif %}
+      {% if mens.twitter %}<a class="twitterBtn smGlobalBtn" href="{{ mens.twitter }}"></a>{% endif %}
+      {% if mens.github %}<a class="githubBtn smGlobalBtn" href="{{ mens.github }}"></a>{% endif %}
+      {% if mens.website %}<a class="websiteBtn smGlobalBtn" href="{{ mens.website }}"></a>{% endif %}
     </p>
   </div>
 
+  {% endif %}
   {% endfor %}
 </section>
