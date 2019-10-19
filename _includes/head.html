@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=320,initial-scale=1,user-scalable=0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta property="og:type" content="default">
-    <meta property="og:url" content="http://www.codefor.nl">
+    <meta property="og:url" content="https://www.codefor.nl">
     <meta property="og:site_name" content="{{ site.name }}">
     <meta property="og:title" name="title" content="{{ page.title }}">
     {% if page.lang == "nl" %}
@@ -13,7 +13,7 @@
     <meta property="og:description" name="description"
       content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
     {% endif %}
-    <meta property="og:image" content="http://www.codefor.nl/img/larger_CfNL.png">
+    <meta property="og:image" content="https://www.codefor.nl/img/larger_CfNL.png">
     <meta name="keywords" content="{{ site.defaulttags | join: ', ' }}{% if page.tags %},{{ page.tags | join: ', '}}{% endif %}">
     <link rel="image_src" href="/img/larger_CfNL.png" />
     <link rel="shortcut icon" sizes="128x128" href="/img/CfNL.png" />
@@ -21,4 +21,11 @@
     <link rel="stylesheet" href="/css/reset.css" type="text/css" media="all">
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
     <script src="https://use.fontawesome.com/164ce3f549.js"></script>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://www.codefor.nl">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving">
+    <meta name="twitter:image" content="https://www.codefor.nl/img/larger_CfNL.png">
+
   </head>
