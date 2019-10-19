@@ -124,7 +124,7 @@ lang: nl
 
 <section>
   <h1>Organisatie</h1>
-  {% for mens in site.data.mensen %}{% if mens.groups contains "board" %}
+  {% for mens in site.data.mensen %}{% if mens.groups contains "board" or mens.groups contains "active" %}
   <div class="persoon">
     <img class="pasfoto" src="{{ mens.img }}">
     <p>
