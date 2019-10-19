@@ -348,3 +348,47 @@ p.example {
     background: #eee;
     padding: 1em;
 }
+
+span.badge {
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 0 solid transparent;
+}
+.meedoen {
+    border-color: rgb(151, 189, 46) !important;
+
+}
+.meedoen > .card-label {
+  color: rgb(151, 189, 46) !important;
+}
+
+.meeleren {
+    border-color: rgb(52, 143, 170) !important;
+}
+.meeleren > .card-label {
+  color: rgb(52, 143, 170) !important;
+}
+
+.meekijken {
+    border-color: rgb(86, 22, 92) !important;
+}
+.meekijken > .card-label {
+  color: rgb(86, 22, 92) !important;
+}
+
+.card {
+    border-left: 7px solid transparent;
+    margin: 0.5em;
+    background: #eee;
+}
+
+.card-title {
+    font-size: 1.4em;
+}
+
+.card-label {
+  writing-mode: vertical-lr;
+  margin: 4px 10px 20px 2px;
+  display: inline-block;
+}

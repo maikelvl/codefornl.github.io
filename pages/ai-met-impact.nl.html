@@ -99,72 +99,20 @@ permalink: /ai-met-impact/
     <h1>Agenda</h1>
 
     <p>Onderstaande data worden komende week vastgesteld.</p>
-
-    <h2>31 oktober: kick-off #meedoen</h2>
-    <p>Bijeenkomst voor gemeenten die actief willen meedoen in één van de projecten.</p>
-    <p>Aanmelden kan op <a href="https://www.meetup.com/Code-For-NL/events/265736974/">https://www.meetup.com/Code-For-NL/events/265736974/</a>.</p>
-
-    <br>
-
-    <h2>x november: #meeleren dag projecten</h2>
-
-    <br>
-
-    <h2>x november: #meekijken bijeenkomst 1</h2>
-
-    <br>
-
-    <h2>x december: #meeleren dag projecten</h2>
-
-    <br>
-
-    <h2>x december: #meekijken bijeenkomst 2</h2>
-
-    <br>
-
-    <h2>x januari: #meeleren dag projecten</h2>
-
-    <br>
-
-    <h2>x januari: #meekijken bijeenkomst 3</h2>
-
-    <br>
-
-    <h2>x februari: #meeleren dag projecten</h2>
-
-    <br>
-
-    <h2>x februari: #meekijken bijeenkomst 4</h2>
-
-    <br>
-
-    <h2>x maart: #meeleren dag projecten</h2>
-
-    <br>
-
-    <h2>x maart: #meekijken bijeenkomst 5</h2>
-
-    <br>
-
-    <h2>x april: #meeleren dag projecten</h2>
-
-    <br>
-
-    <h2>x april: #meekijken bijeenkomst 6</h2>
-
-    <br>
-
-    <h2>x mei: #meeleren dag projecten</h2>
-
-    <br>
-
-    <h2>x mei: #meekijken bijeenkomst 7</h2>
-
-    <br>
-
-    <h2>x juni: #meekijken bijeenkomst 8</h2>
-
-    <br>
+    {% for item in site.data.ai-met-impact-calendar %}
+    <div class="card {{item.cat}}" style="display: flex;">
+        <div class="card-label">{{item.cat}}</div>
+        <div style="margin-top: 10px">
+          <span class="card-title">{{item.date}}: #{{item.cat}} {{item.title}}</span>
+          {% if item.description %}
+              <p>{{ item.description }}</p>
+          {% endif %}
+          {% if item.signup-link %}
+              <p>Aanmelden kan op <a href="{{item.signup-link}}">{{item.signup-link}}</a></p>
+          {% endif %}
+        </div>
+    </div>
+    {% endfor %}
 
     <p>Voor vragen en meer kun je terecht op de Code for NL Slack:</p>
 

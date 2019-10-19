@@ -1,0 +1,84 @@
+[ 
+    {
+        "cat": "meedoen",
+        "title": "kick-off",
+        "date": "31 oktober",
+        "description": "Bijeenkomst voor gemeenten die actief willen meedoen in één van de projecten.",
+        "signup-link": "https://www.meetup.com/Code-For-NL/events/265736974/"
+    },
+    {
+        "date": "x november",
+        "cat": "meeleren",
+        "title": "dag projecten"
+    },
+    {
+        "date": "x november",
+        "cat":"meekijken",
+        "title": "bijeenkomst 1"
+    },
+    {
+        "date": "x december",
+        "cat":"meeleren",
+        "title": "dag projecten"
+    },
+    {
+        "date": "x december",
+        "cat":"meekijken",
+        "title": "bijeenkomst 2"
+    },
+    {
+        "date": "x januari",
+        "cat":"meeleren",
+        "title": "dag projecten"
+    },
+    {
+        "date": "x januari",
+        "cat":"meekijken",
+        "title": "bijeenkomst 3"
+    },
+    {
+        "date": "x februari",
+        "cat":"meeleren",
+        "title": "dag projecten"
+    },
+    {
+        "date": "x februari",
+        "cat":"meekijken",
+        "title": "bijeenkomst 4"
+    },
+    {
+        "date": "x maart",
+        "cat":"meeleren",
+        "title": "dag projecten"
+    },
+    {
+        "date": "x maart",
+        "cat":"meekijken",
+        "title": "bijeenkomst 5"
+    },
+    {
+        "date": "x april",
+        "cat":"meeleren",
+        "title": "dag projecten"
+    },
+    {
+        "date": "x april",
+        "cat":"meekijken",
+        "title": "bijeenkomst 6"
+    },
+    {
+        "date": "x mei",
+        "cat":"meeleren",
+        "title": "dag projecten"
+    },
+    {
+        "date": "x mei",
+        "cat":"meekijken",
+        "title": "bijeenkomst 4"
+    },
+    {
+        "date": "x juni",
+        "cat":"meekijken",
+        "title": "bijeenkomst 8"
+    }
+]
