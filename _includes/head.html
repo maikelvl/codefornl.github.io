@@ -19,7 +19,13 @@
     <meta name="twitter:text:title" content="{{ page.title }} ({{ site.name }})">
 
     <!-- description -->
-    {% if page.lang == "nl" %}
+    {% if page.description %}
+    <meta property="og:description" name="description"
+      content="{{ page.description }}">
+    <meta name="twitter:description"
+      content="{{ page.description }}">
+    {% else %}
+      {% if page.lang == "nl" %}
     <meta property="og:description" name="description"
       content="Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving">
     <meta name="twitter:description"
@@ -29,11 +35,17 @@
       content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
     <meta name="twitter:description"
       content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
+      {% endif %}
     {% endif %}
 
     <!-- preview image -->
+    {% if page.image %}
+    <meta property="og:image" content="{{ page.image }}">
+    <meta name="twitter:image" content="{{ page.image }}">
+    {% else %}
     <meta property="og:image" content="https://www.codefor.nl/img/larger_CfNL.png">
     <meta name="twitter:image" content="https://www.codefor.nl/img/larger_CfNL.png">
+    {% endif %}
 
     <!-- shortcut icon -->
     <link rel="image_src" href="/img/larger_CfNL.png" />
