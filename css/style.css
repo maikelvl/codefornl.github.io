@@ -348,3 +348,32 @@ p.example {
     background: #eee;
     padding: 1em;
 }
+
+span.badge {
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 0 solid transparent;
+}
+.meedoen {
+    border-color: rgb(151, 189, 46) !important;
+
+}
+
+.meeleren {
+    border-color: rgb(52, 143, 170) !important;
+}
+
+.meekijken {
+    border-color: rgb(86, 22, 92) !important;
+}
+
+.card {
+    border-left: 2px solid transparent;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.card-title {
+    font-size: 1.4em;
+}
