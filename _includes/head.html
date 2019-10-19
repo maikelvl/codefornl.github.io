@@ -15,23 +15,23 @@
 
     <!-- title -->
     <title>{{ page.title }} ({{ site.name }})</title>
-    <meta property="og:title" name="title" content="{{ page.title }} ({{ site.name }})">
+    <meta property="og:title" content="{{ page.title }} ({{ site.name }})">
     <meta name="twitter:text:title" content="{{ page.title }} ({{ site.name }})">
 
     <!-- description -->
     {% if page.description %}
-    <meta property="og:description" name="description"
+    <meta property="og:description"
       content="{{ page.description }}">
     <meta name="twitter:description"
       content="{{ page.description }}">
     {% else %}
       {% if page.lang == "nl" %}
-    <meta property="og:description" name="description"
+    <meta property="og:description"
       content="Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving">
     <meta name="twitter:description"
       content="Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving">
     {% else %}
-    <meta property="og:description" name="description"
+    <meta property="og:description"
       content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
     <meta name="twitter:description"
       content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
