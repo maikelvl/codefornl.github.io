@@ -7,9 +7,11 @@
         "signup-link": "https://www.meetup.com/Code-For-NL/events/265736974/"
     },
     {
-        "date": "x november",
+        "date": "19 november",
         "cat": "meeleren",
-        "title": "dag projecten"
+        "title": "dag projecten: objectherkenning",
+        "description": "Inhoudelijke demo's en presentaties over de technieken achter de verschillende projecten. Open samenwerkdag voor data scientists en developers.",
+        "signup-link": "volgt"
     },
     {
         "date": "x november",
