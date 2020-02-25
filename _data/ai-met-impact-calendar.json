@@ -9,7 +9,7 @@
     {
         "date": "13 november",
         "cat":"meekijken",
-        "title": "bijeenkomst 1 i.s.m. Kennisnetwerk VNG Realisatie",
+        "title": "bijeenkomst i.s.m. Kennisnetwerk VNG Realisatie",
         "description": "Bijeenkomst voor iedereen die meer wil weten over de inzet van AI binnen gemeenten, op basis van twee concrete show cases.",
         "signup-link": "https://www.meetup.com/Code-For-NL/events/266288206/"
     },
@@ -18,73 +18,31 @@
         "cat": "meeleren",
         "title": "dag projecten: objectherkenning",
         "description": "Inhoudelijke demo's en presentaties over de technieken achter de verschillende projecten, en open samenwerkdag voor data scientists en developers bij AMS.",
-        "signup-link": "volgt"
+        "signup-link": ""
     },
     {
-        "date": "x december",
+        "date": "17 december",
         "cat":"meeleren",
-        "title": "dag projecten"
+        "title": "dag projecten: objectherkenning"
     },
     {
         "date": "11 december",
         "cat":"meekijken",
-        "title": "bijeenkomst 2 in Utrecht",
+        "title": "bijeenkomst in Utrecht",
         "description": "Bijeenkomst voor iedereen die meer wil weten over de inzet van AI binnen gemeenten, op basis van twee concrete show cases.",
         "signup-link": "volgt"
     },
     {
-        "date": "x januari",
-        "cat":"meeleren",
-        "title": "dag projecten"
-    },
-    {
-        "date": "x januari",
+        "date": "4 februari",
         "cat":"meekijken",
-        "title": "bijeenkomst 3"
+        "title": "bijeenkomst: verantwoord AI",
+        "description": "Op welke manier kunnen we AI verantwoorden? Welke kaders voor verantwoord gebruik van AI zijn er al en waar wordt nog aan gewerkt? Hoe kun je verantwoord AI gebruik in de praktijk toepassen?"
     },
     {
-        "date": "x februari",
-        "cat":"meeleren",
-        "title": "dag projecten"
-    },
-    {
-        "date": "x februari",
+        "date": "4 maart",
         "cat":"meekijken",
-        "title": "bijeenkomst 4"
-    },
-    {
-        "date": "x maart",
-        "cat":"meeleren",
-        "title": "dag projecten"
-    },
-    {
-        "date": "x maart",
-        "cat":"meekijken",
-        "title": "bijeenkomst 5"
-    },
-    {
-        "date": "x april",
-        "cat":"meeleren",
-        "title": "dag projecten"
-    },
-    {
-        "date": "x april",
-        "cat":"meekijken",
-        "title": "bijeenkomst 6"
-    },
-    {
-        "date": "x mei",
-        "cat":"meeleren",
-        "title": "dag projecten"
-    },
-    {
-        "date": "x mei",
-        "cat":"meekijken",
-        "title": "bijeenkomst 4"
-    },
-    {
-        "date": "x juni",
-        "cat":"meekijken",
-        "title": "bijeenkomst 8"
+        "title": "bijeenkomst: objectherkenning",
+        "description": "Voor deze meekijksessie gaan we 4 maart naar Amsterdam, waar een tech team momenteel werkt aan de Object Detection Kit. Door middel van scanners op gemeentevoertuigen kan afval in buurten objectief in kaart worden gebracht. De software die hiervoor gebruikt wordt is open source beschikbaar.",
+        "signup-link": "https://www.meetup.com/Code-For-NL/events/268108950/"    
     }
 ]
