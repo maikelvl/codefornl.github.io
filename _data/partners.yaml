@@ -18,10 +18,6 @@
   img: /img/partners/ictu.jpg
   type: informal
 
-- url: https://www.rotterdam.nl/
-  img: /img/partners/rotterdam.jpg
-  type: informal
-
 - url: https://www.vngrealisatie.nl/
   img: /img/partners/vng_realisatie.jpg
   type: program
@@ -57,19 +53,3 @@
 - url: https://openstate.eu/nl/
   img: /img/partners/openstate.png
   type: informal
-
-- url: https://www.clowder.it/
-  no-img: /img/partners/clowder-pink.png
-  type: company
-
-- url: http://www.codefor.eu/
-  no-img: /img/partners/codeforeurope.png
-
-- url: https://data.overheid.nl/
-  no-img: /img/partners/datapuntoverheid.jpg
-
-- url: https://v2.nl/
-
-- url: https://developer.overheid.nl
-
-- name: hacker spaces

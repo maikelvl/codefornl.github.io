@@ -1,27 +1,40 @@
 <header>
-    {% if page.url == "/" %}
-    <div class="wrapper" style="text-align: right">
-        <p>
-            {% if page.lang == "nl" %}
-            <a href="/en/" style="margin: 1em; color: #111">English version</a>
-            {% else %}
-            <a href="/" style="margin: 1em; color: #111">Nederlandse versie</a>
-            {% endif %}
-        </p>
-    </div>
-    {% endif %}
-    <div class="wrapper">
-        <h2>{{ page.tagline }}</h2>
-        {% if page.lang == "nl" %}
-        <a href="/en/" class="logo">
-            <img alt="&lt;/" src="/img/larger_CfNL.png">
-            <h1>Code for NL</h1>
-        </a>
-        {% else %}
-        <a href="/" class="logo">
-            <img alt="&lt;/" src="/img/larger_CfNL.png">
-            <h1>Code for NL</h1>
-        </a>
-        {% endif %}
-    </div>
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+  <style>
+    .quote-box {
+      background: #74C7A8;
+    }
+    .quote-box__quote,
+    .quote-box__author {
+      font-family: 'Anton', sans-serif;
+      color: white;
+    }
+    .quote-box__quote {
+      font-size: 64px;
+      line-height: 1.4em;
+      padding: 64px 100px 40px;
+    }
+    .quote-box__author {
+      font-size: 24px;
+      text-align: right;
+      padding: 20px 100px 64px;
+    }
+  </style>
+  <div class="quote-box">
+    <div class="quote-box__quote">"<span>Fight for the web</span>"</div>
+    <div class="quote-box__author">- <span>Tim Berners Lee</span></div>
+  </div>
+  <script>
+    var quotes = [
+      ["Fight for the web", "Tim Berners Lee"],
+      ["Het internet is stuk, maar nog niet verloren.", "Marleen Stikker"],
+      ["We're not going to fix government until we fix citizenship.", "Jennifer Pahlka"],
+      ["Are we just going to be a crowd of voices, or are we going to be a crowd of hands?", "Jennifer Pahlka"],
+      ["When one neighbor helps another, we strengthen our communities.", "Jennifer Pahlka"],
+      ["We have to make bureaucracy sexy.", "Jennifer Pahlka"]
+    ];
+    var quote = quotes[Math.floor(Math.random() * quotes.length)];
+    $(".quote-box__quote span").html(quote[0]);
+    $(".quote-box__author span").html(quote[1]);
+  </script>
 </header>
