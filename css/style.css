@@ -119,6 +119,10 @@ b {
     font-weight: 900
 }
 
+img {
+  max-width: 100%;
+}
+
 img.icon {
     background: #74C7A8;
     padding: 20px;
