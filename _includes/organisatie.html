@@ -1,0 +1,19 @@
+<section style="text-align: center">
+  <h1>Organisatie</h1>
+  {% for mens in site.data.mensen %}{% if mens.groups contains "board" or mens.groups contains "active" %}
+  <div class="persoon">
+    <img class="pasfoto" src="{{ mens.img }}">
+    <p>
+      {{ mens.name }}<br>
+      {{ mens.function }}<br>
+      <a href="mailto:{{ mens.email }}">{{ mens.email }}</a>
+    </p>
+    <p class="social">
+      {% if mens.linkedin %}<a class="linkedinBtn smGlobalBtn" href="{{ mens.linkedin }}"></a>{% endif %}
+      {% if mens.twitter %}<a class="twitterBtn smGlobalBtn" href="{{ mens.twitter }}"></a>{% endif %}
+      {% if mens.github %}<a class="githubBtn smGlobalBtn" href="{{ mens.github }}"></a>{% endif %}
+      {% if mens.website %}<a class="websiteBtn smGlobalBtn" href="{{ mens.website }}"></a>{% endif %}
+    </p>
+  </div>
+  {% endif %}{% endfor %}
+</section>
