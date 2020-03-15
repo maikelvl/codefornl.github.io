@@ -1,11 +1,11 @@
-<section style="text-align: center">
+<section class="block-40-a text-center">
 
   <h1>Partners</h1>
 
-  <center>
+  <p>
     {% for partner in site.data.partners %}
     <a class="partner-img-wrapper" href="{{ partner.url }}"><img class="partner-img" src="{{ partner.img }}"></a>
     {% endfor %}
-  </center>
+  </p>
 
 </section>

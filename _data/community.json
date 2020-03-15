@@ -1,0 +1,17 @@
+[
+    {
+       "color" : "#70C09D",
+       "value": 491,
+       "label": "community leden in Nederland"
+    },
+    {
+        "color" : "#E15532",
+        "value": 134,
+        "label": "actieve leden in Nederland"
+     },
+     {
+        "color" : "#EC8C39",
+        "value": 31,
+        "label": "Partner organisaties <a href=\"https://codeforall.org\">wereldwijd</a>"
+     }
+]

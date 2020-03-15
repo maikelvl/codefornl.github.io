@@ -1,0 +1,215 @@
+h1,
+    h2,
+    h3 {
+      font-family: 'Anton', sans-serif;
+      line-height: 2em;
+      color: #E15532;
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+
+    h2 {
+      font-size: 2.4em;
+    }
+
+    h3 {
+      font-size: 1.8em;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .nav__logo,
+    .nav__menu {
+      display: inline-block;
+      font-family: 'Anton', sans-serif;
+      color: #666;
+      font-size: 24px;
+    }
+
+    .nav__logo {
+      font-size: 32px;
+    }
+
+    .nav__logo--background-orange {
+      background: #F7931D;
+      color: white;
+      vertical-align: 11px;
+    }
+
+    .nav__menu {
+      text-transform: uppercase;
+      float: right;
+      padding-top: 10px;
+      line-height: 1.4em;
+      margin-right: 10px;
+    }
+
+    .nav__menu li {
+      padding: 0 4px;
+    }
+
+    .nav__menu li:hover {
+      background: #F7931D;
+      cursor: pointer;
+    }
+
+    .nav__menu li:hover a {
+      color: #FFFFFF;
+    }
+
+    .block-40-a {
+      max-width: 960px;
+      margin: 40px auto;
+    }
+
+    .block-100-a-60 {
+      max-width: 960px;
+      margin: 100px auto 60px;
+    }
+
+    .block-60-a {
+      max-width: 960px;
+      margin: 60px auto;
+    }
+
+    .block-100-a {
+      max-width: 960px;
+      margin: 100px auto;
+    }
+
+    .action-box {
+      background: #EC8C39;
+    }
+    .action-box__action,
+    .action-box__author {
+      font-family: 'Anton', sans-serif;
+      color: white;
+    }
+    .action-box__action {
+      font-size: 64px;
+      line-height: 1.4em;
+      padding: 64px 100px 40px;
+    }
+    .action-box__author {
+      font-size: 24px;
+      text-align: right;
+      padding: 20px 100px 64px;
+    }
+
+    .codefornl-nav {
+        background: #111;
+        padding: 8px 0;
+        text-align: left;
+      }
+      .codefornl-nav--content-block {
+        max-width: 800px;
+        margin: auto;
+      }
+      .codefornl-nav--menu-item {
+        font-family: "Lato", "Verdana", "Arial", sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 28px;
+        color: #fff;
+        text-decoration: underline;
+        margin-left: 20px;
+      }
+
+      .community-stats { display: flex }
+      .community-stat { flex: 1 }
+      .community-stat-number {
+        font-family: 'Anton', sans-serif;
+        font-size: 5.2em;
+        margin: 0.3em 0;
+      }
+      .community-stat-text {
+        font-size: 1.4em;
+        line-height: 1.4em;
+        color: #777977;
+      }
+      input, button {
+        border: 0.1em solid #777977;
+        padding: 1.2em
+      }
+      button { background: #E15532; color: #FFFFFF }
+
+      .heroins__item {
+        display: inline-block;
+        text-align: center;
+      }
+
+      .heroins__item h2 {
+        margin-top: 24px;
+        font-family: 'Anton', sans-serif;
+        color: #777977;
+        font-size: 1.4em;
+      }
+      .heroins__item div {
+        height: 180px;
+      }
+
+      .quote-box {
+        background: #74C7A8;
+      }
+      .quote-box__quote,
+      .quote-box__author {
+        font-family: 'Anton', sans-serif;
+        color: white;
+      }
+      .quote-box__quote {
+        font-size: 64px;
+        line-height: 1.4em;
+        padding: 64px 100px 40px;
+      }
+      .quote-box__author {
+        font-size: 24px;
+        text-align: right;
+        padding: 20px 100px 64px;
+      }
+
+      /*
+      orange EC8C39
+      grey 777977
+      red E15532
+      green 70C09D
+    */
+    .tfnt {
+        background: grey;
+      }
+      .tfnt-line {
+        font-family: 'Anton', sans-serif;
+        font-size: 80px;
+        line-height: 1.1em;
+        overflow: hidden;
+      }
+      .tfnt-line-wrap {
+        display: flex;
+        white-space: nowrap;
+      }
+      .word {
+        flex-grow: 1;
+        padding: 2px 10px;
+        margin: 0;
+      }
+      .color1 {
+        background: #777977; /* grey */
+        color: #EC8C39; /* orange */
+      }
+      .color2 {
+        background: #E15532; /* red */
+        color: #70C09D; /* green */
+      }
+      .color3 {
+        background: #EC8C39; /* orange */
+        color: #E15532; /* red */
+      }
+      .color4 {
+        background: #70C09D; /* green */
+        color: #777977; /* grey */
+      }
+
+      .top-60 {
+          margin-top: 60px;
+      }
