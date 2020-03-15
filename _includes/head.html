@@ -1,64 +1,143 @@
 <head>
-    <meta name="viewport" content="width=320,initial-scale=1,user-scalable=0">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=320,initial-scale=1,user-scalable=0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <!-- type -->
-    <meta property="og:type" content="default">
-    <meta name="twitter:card" content="summary">
+  <!-- type -->
+  <meta property="og:type" content="default">
+  <meta name="twitter:card" content="summary">
 
-    <!-- url -->
-    <meta property="og:url" content="https://www.codefor.nl{{ page.url }}">
-    <meta name="twitter:url" content="https://www.codefor.nl{{ page.url }}">
+  <!-- url -->
+  <meta property="og:url" content="https://www.codefor.nl{{ page.url }}">
+  <meta name="twitter:url" content="https://www.codefor.nl{{ page.url }}">
 
-    <!-- site name -->
-    <meta property="og:site_name" content="{{ site.name }}">
+  <!-- site name -->
+  <meta property="og:site_name" content="{{ site.name }}">
 
-    <!-- title -->
-    <title>{{ page.title }} ({{ site.name }})</title>
-    <meta property="og:title" content="{{ page.title }} ({{ site.name }})">
-    <meta name="twitter:text:title" content="{{ page.title }} ({{ site.name }})">
+  <!-- title -->
+  <title>{{ page.title }} ({{ site.name }})</title>
+  <meta property="og:title" content="{{ page.title }} ({{ site.name }})">
+  <meta name="twitter:text:title" content="{{ page.title }} ({{ site.name }})">
 
-    <!-- description -->
-    {% if page.description %}
-    <meta property="og:description"
-      content="{{ page.description }}">
-    <meta name="twitter:description"
-      content="{{ page.description }}">
-    {% else %}
-      {% if page.lang == "nl" %}
-    <meta property="og:description"
-      content="Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving">
-    <meta name="twitter:description"
-      content="Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving">
-    {% else %}
-    <meta property="og:description"
-      content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
-    <meta name="twitter:description"
-      content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
-      {% endif %}
-    {% endif %}
+  <!-- description -->
+  {% if page.description %}
+  <meta property="og:description" content="{{ page.description }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  {% else %}
+  {% if page.lang == "nl" %}
+  <meta property="og:description"
+    content="Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving">
+  <meta name="twitter:description"
+    content="Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving">
+  {% else %}
+  <meta property="og:description"
+    content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
+  <meta name="twitter:description"
+    content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
+  {% endif %}
+  {% endif %}
 
-    <!-- preview image -->
-    {% if page.image %}
-    <meta property="og:image" content="{{ page.image }}">
-    <meta name="twitter:image" content="{{ page.image }}">
-    {% else %}
-    <meta property="og:image" content="https://www.codefor.nl/img/larger_CfNL.png">
-    <meta name="twitter:image" content="https://www.codefor.nl/img/larger_CfNL.png">
-    {% endif %}
+  <!-- preview image -->
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image }}">
+  <meta name="twitter:image" content="{{ page.image }}">
+  {% else %}
+  <meta property="og:image" content="https://www.codefor.nl/img/larger_CfNL.png">
+  <meta name="twitter:image" content="https://www.codefor.nl/img/larger_CfNL.png">
+  {% endif %}
 
-    <!-- shortcut icon -->
-    <link rel="image_src" href="/img/larger_CfNL.png" />
-    <link rel="shortcut icon" sizes="128x128" href="/img/CfNL.png" />
+  <!-- shortcut icon -->
+  <link rel="image_src" href="/img/larger_CfNL.png" />
+  <link rel="shortcut icon" sizes="128x128" href="/img/CfNL.png" />
 
-    <meta name="keywords" content="{{ site.defaulttags | join: ', ' }}{% if page.tags %},{{ page.tags | join: ', '}}{% endif %}">
+  <meta name="keywords"
+    content="{{ site.defaulttags | join: ', ' }}{% if page.tags %},{{ page.tags | join: ', '}}{% endif %}">
 
-    <!-- style -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="/css/reset.css" type="text/css" media="all">
-    <link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
-    <script src="https://use.fontawesome.com/164ce3f549.js"></script>
+  <!-- style -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="/css/reset.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
+  <script src="https://use.fontawesome.com/164ce3f549.js"></script>
 
-    <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  </head>
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <style>
+    h1,
+    h2,
+    h3 {
+      font-family: 'Anton', sans-serif;
+      line-height: 2em;
+      color: #E15532;
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+
+    h2 {
+      font-size: 2.4em;
+    }
+
+    h3 {
+      font-size: 1.8em;
+    }
+
+    .nav__logo,
+    .nav__menu {
+      display: inline-block;
+      font-family: 'Anton', sans-serif;
+      color: #666;
+      font-size: 24px;
+    }
+
+    .nav__logo {
+      font-size: 32px;
+    }
+
+    .nav__logo--background-orange {
+      background: #F7931D;
+      color: white;
+      vertical-align: 11px;
+    }
+
+    .nav__menu {
+      text-transform: uppercase;
+      float: right;
+      padding-top: 10px;
+      line-height: 1.4em;
+      margin-right: 10px;
+    }
+
+    .nav__menu li {
+      padding: 0 4px;
+    }
+
+    .nav__menu li:hover {
+      background: #F7931D;
+      cursor: pointer;
+    }
+
+    .nav__menu li:hover a {
+      color: #FFFFFF;
+    }
+
+    .block-40-a {
+      max-width: 960px;
+      margin: 40px auto;
+    }
+
+    .block-100-a-60 {
+      max-width: 960px;
+      margin: 100px auto 60px;
+    }
+
+    .block-60-a {
+      max-width: 960px;
+      margin: 60px auto;
+    }
+
+    .block-100-a {
+      max-width: 960px;
+      margin: 100px auto;
+    }
+  </style>
+</head>
