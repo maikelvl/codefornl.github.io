@@ -500,6 +500,16 @@ h1,
       }
       button { background: #E15532; color: #FFFFFF }
 
+      .post__item {
+        display: inline-block;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .post__item div {
+        height: 180px;
+      }
+
       .heroins__item {
         display: inline-block;
         text-align: center;
@@ -583,6 +593,10 @@ h1,
     display: flex;
 }
 
+.posts {
+  display: flex;
+}
+
 /* Monitors with screen width 1366px or above */
 @media only screen and (min-width: 1365px) {
     .action-box__action {
@@ -638,6 +652,35 @@ h1,
     .centered_content h2 {
         text-align: center;
     }
+    .heroins {
+      display: block;
+    }
+    .community-stats {
+      display: block;
+    }
+    .heroins__item {
+      padding: 1em;
+    }
+
+    .partner-img-wrapper {
+      margin: 10px;
+    }
+    .persoon {
+      width: 180px;
+      margin: 20px auto;
+      display: inline-block;
+    }
+
+    .partner-img-wrapper {
+      width: 100px;
+      height: 100px;
+      margin: 5px;
+    }
+
+    .partner-img {
+      max-width: 100px;
+      max-height: 100px;
+    }
 }
 
 /*  Smartphones in portrait mode  */
@@ -675,5 +718,21 @@ h1,
     }
     .community-stats {
         display: block;
+    }
+    .partner-img-wrapper {
+      width: 100px;
+      height: 100px;
+      margin: 5px;
+    }
+
+    .partner-img {
+      max-width: 100px;
+      max-height: 100px;
+    }
+
+    .persoon {
+      width: 180px;
+      margin: 20px auto;
+      display: inline-block;
     }
 }
