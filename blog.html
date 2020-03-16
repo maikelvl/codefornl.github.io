@@ -5,32 +5,34 @@ tagline: Samenwerken aan de Digitale Overheid.
 lang: nl
 ---
 
-<section class="block-100-a-60 post__container">
-  {% for post in site.posts %}
-  <div class="post__item">
-    <a href="{{ post.url }}">
-    {% if post.cover %}
-    <img  class="post__item-image" src="/img/posts/{{post.cover}}">
-    {% else %}
-    <img class="post__item-image" src="/img/default.png">
-    {% endif %}
-    </a>
-    <span class="card-title">{{ post.title }}</span>
-    <p>{{ post.excerpt}}</p>
-    <p class="reading-time" title="Estimated read time">
-      door: <span>{{post.author}}</span><br/>
-      leestijd: 
-      {% assign words = post.content | number_of_words %}
-      {% if words < 360 %}
-      1 minuut
-      {% else %}
-      {{ words | divided_by: 180 }} minuten
-      {% endif %}
-    </p>
+<section class="block-100-a-60 text-center">
+  <h2 style="color: #777977">Blog</h2><br />
+  <div class="post__container">
+    {% for post in site.posts %}
+    <div class="post__item">
+      <a href="{{ post.url }}">
+        {% if post.cover %}
+        <img class="post__item-image" src="/img/posts/{{post.cover}}">
+        {% else %}
+        <img class="post__item-image" src="/img/default.png">
+        {% endif %}
+      </a>
+      <span class="card-title">{{ post.title }}</span>
+      <p>{{ post.excerpt}}</p>
+      <p class="reading-time" title="Estimated read time">
+        <span>{{post.date | date: "%Y-%m-%d"}}</span>, <span>{{post.author}}</span>
+        {% assign words = post.content | number_of_words %}
+        {% if words < 360 %}
+        (1 minuut)
+        {% else %}
+        ({{ words | divided_by: 180 }} minuten)
+        {% endif %}
+      </p>
 
 
-    <a href="{{ post.url }}">lees meer..</a>
-  </div>
-  {% endfor %}
+      <a href="{{ post.url }}">lees meer..</a>
+    </div>
+    {% endfor %}
+
   </div>
 </section>
