@@ -2,7 +2,6 @@ html,
 body {
     font-family: "Lato", "Verdana", "Arial", sans-serif;
     font-size: 100%;
-    font-weight: 100;
     color: #111
 }
 
@@ -90,8 +89,11 @@ hr {
     border-bottom: 1px solid silver
 }
 
-li {
+.nav__menu li {
     display: inline-block
+}
+ol, ul {
+  list-style: disc;
 }
 
 main {
@@ -502,7 +504,7 @@ h1,
 
       .post__item {
         display: inline-block;
-        text-align: center;
+        text-align: left;
         padding: 1.2em;
         flex: 1;
         border: 1px solid #ccc;
@@ -567,6 +569,45 @@ h1,
         color: #ccc;
         font-style: italic;
       }
+
+      .blog h1 {
+        color: #777977;
+        font-size: 1.8em;
+      }
+      .blog h2 {
+        color: #777977;
+        font-size: 1.4em;
+      }
+      .blog h3 {
+        color: #777977;
+        font-size: 1.2em;
+      }
+
+      .blog hr {
+        margin: 1.5em 0;
+        text-align: center;
+        border: none;
+      }
+      
+      .blog hr:before {
+        content: '';
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #eee;
+        margin: 0 0.4em;
+      }
+      
+      .blog hr:after {
+        content: '';
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #eee;
+        margin: 0 0.4em;
+      }
       /*
       orange EC8C39
       grey 777977
@@ -621,6 +662,28 @@ h1,
   flex-direction: row;
   align-items: stretch;
   flex-wrap: wrap;
+}
+
+
+blockquote {
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: "\201C";
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  color: #494949;
+  display: inline;
+  font-style: italic;
+  font-size: 1.2em;
 }
 
 /* Monitors with screen width 1366px or above */

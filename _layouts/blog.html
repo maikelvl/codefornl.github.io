@@ -8,10 +8,22 @@
     <div class="block-40-a">
         {% include nav2020.html %}
     </div>
-    <div class="block-40-a">
+    <h2 class="text-center">{{page.title}}</h2>
+    {% if page.author %}
+    <p class="reading-time text-center" title="Estimated read time">
+
+        <span>{{page.date | date: "%Y-%m-%d"}}</span>, <span>{{page.author}}</span>
+        {% assign words = page.content | number_of_words %}
+        {% if words < 360 %}
+        (1 minuut)
+        {% else %}
+        ({{ words | divided_by: 180 }} minuten)
+        {% endif %}
+    </p>
+    {% endif %}
+    <div class="block-40-a blog" style="padding:1.6em;">
         {{ content }}
     </div>
-
     {% include footer.html %}
 </body>
 
