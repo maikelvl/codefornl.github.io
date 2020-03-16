@@ -81,7 +81,7 @@ Door slim samen te werken en kennis en code te delen kunnen grote besparingen wo
 > Onderzoeksbureau Gartner stelt in het ‘Onderzoek Open Source Software’ (in opdracht van BZK) dat de baten kunnen ‘oplopen tot een niveau van €1.1mld per jaar voor de Nederlandse overheid alleen’.
 Binnen het project ‘Landelijke Online Diensten’ (VNG) ontwikkelen gemeenten samen diensten, die alle 380 gemeenten vervolgens kunnen aanbieden. Door de software voor diensten als open source te ontwikkelen ontstaat de mogelijkheid om deze met inbreng van verschillende overheids- en marktpartijen te optimaliseren. 
 
-<section>
+<section class="block-40-a text-center">
     <h1>Auteurs</h1>
     {% assign people = site.data.mensen | sort: 'ibestuur_sort' %}
     {% for mens in people %}{% if mens.groups contains "ibestuur" %}
