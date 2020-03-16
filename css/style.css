@@ -621,7 +621,10 @@ h1,
 /*  Smartphones in landscape mode */
 @media only screen and (min-width: 421px) and (max-width: 767px) {
     .action-box__action {
-        font-size: 64px;
+        font-size: 48px;
+    }
+    .quote-box__quote {
+      font-size: 48px;
     }
     .left {
         text-align: center;
