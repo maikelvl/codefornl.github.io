@@ -503,7 +503,25 @@ h1,
       .post__item {
         display: inline-block;
         text-align: center;
-        flex-grow: 1;
+        padding: 1.2em;
+        flex: 1;
+        border: 1px solid #ccc;
+        margin: 1em;
+        border-radius: 5px;
+        min-width: 260px;
+        max-width: 380px;
+      }
+
+      .post__item .card-title {
+        margin-top: 20px;
+        display: block;
+      }
+
+
+      .post__item-image {
+        display: block;
+        width: 100%;
+        height: auto;
       }
 
       .post__item div {
@@ -544,6 +562,11 @@ h1,
         padding: 20px 100px 64px;
       }
 
+
+      .reading-time {
+        color: #ccc;
+        font-style: italic;
+      }
       /*
       orange EC8C39
       grey 777977
@@ -593,8 +616,11 @@ h1,
     display: flex;
 }
 
-.posts {
+.post__container {
   display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 
 /* Monitors with screen width 1366px or above */
