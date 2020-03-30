@@ -10,7 +10,7 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
 ---
 # Code for NL *Community Projects*
 
-Vanuit het initiatief van communityleden van Code for NL ontstaan geregeld nieuwe projecten. Stichting Code for NL moedigt dit van harte aan en licht de projecten die onze waarden delen hier graag uit.
+Vanuit de Code for NL community ontstaan geregeld nieuwe projecten. Dit noemen wij Code for NL Community Projects. Stichting Code for NL moedigt dit van harte aan, en wil deze projecten graag helpen slagen. Daarvoor geldt het volgende.
 
 # Een Code for NL *Community Project* :
 
