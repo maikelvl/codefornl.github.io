@@ -13,4 +13,4 @@ Vanuit het initiatief van communityleden van Code for NL ontstaan geregeld nieuw
 
 ## Overzicht van Code for NL *Community Projects*
 
-https://collecties.codefor.nl/cbase/corona-initiatieven-7f1b1d68b2b0a8c621f114e190c98869
+https://collecties.codefor.nl/ (to-do: nieuw overzicht)
