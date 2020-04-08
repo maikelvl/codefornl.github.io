@@ -17,6 +17,18 @@
         "nl": "Postadres",
         "en": "Mail"
     },
+    "website": {
+        "nl": "Website",
+        "en": "Website"
+    },
+    "collections": {
+        "nl": "Collecties",
+        "en": "Collections"
+    },
+    "commerce": {
+        "nl": "KvK registratie",
+        "en": "Dutch Chamber of Commerce reg. no."
+    },
     "corona": {
         "nl": {
             "title": "Civic Tech tegen Corona. Doe mee!",
@@ -56,8 +68,8 @@
         "en": "Check https://github.com/codefornl"
     },
     "tfnt": {
-        "nl":"Meld je aan voor onze TECH FOR NON TECH trainingsdag over technologie en digitalisering van de overheid; voor iedereen in de overheid die meer grip wil op de kernconcepten achter digitale transformatie. Stuur voor meer informatie een mail naar <a href=\"info@codefor.nl\">info@codefor.nl</a>.",
-        "en":"Register for our TECH FOR NON TECH training day on technology and government digitization; for anyone in government who wants to get a better grip on the core concepts behind digital transformation. For more information, send an email to <a href=\"info@codefor.nl\">info@codefor.nl</a>."
+        "nl": "Meld je aan voor onze TECH FOR NON TECH trainingsdag over technologie en digitalisering van de overheid; voor iedereen in de overheid die meer grip wil op de kernconcepten achter digitale transformatie. Stuur voor meer informatie een mail naar <a href=\"info@codefor.nl\">info@codefor.nl</a>.",
+        "en": "Register for our TECH FOR NON TECH training day on technology and government digitization; for anyone in government who wants to get a better grip on the core concepts behind digital transformation. For more information, send an email to <a href=\"info@codefor.nl\">info@codefor.nl</a>."
     },
     "programs": {
         "nl": {

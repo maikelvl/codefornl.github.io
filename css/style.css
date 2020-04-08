@@ -13,6 +13,9 @@ body {
 footer {
     min-height: 200px;
     padding-bottom: 1em;
+    background: #666;
+    padding: 3em;
+    color: #fff;
 }
 
 .logo {
@@ -895,4 +898,20 @@ blockquote p {
   font-family: 'Anton', sans-serif;
   background: #666;
   padding: 1em;
+}
+
+
+.founder-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.founder {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  width: 30%;
+  margin: 3px;
+  max-width: 314px;
 }

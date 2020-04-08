@@ -1,31 +1,40 @@
-<footer>
-  <div class="wrapper">
-    <div style="text-align: center; margin-top: 80px; margin-bottom: 80px">
-      <p class="social">
+<footer class="block-40-a">
+  <div class="founder-list">
+
+    {% for item in site.data.founders[page.lang] %}
+    <div class="founder">
+        <p>{{item.title}}</p>
+        <a href="{{item.link}}"><img src="{{item.img}}"></a>
+    </div>
+    {% endfor %}
+    </div>   
+      <p>
+        <a href="https://www.codefor.nl">{{site.data.blocks.website[page.lang]}}</a><br>
+        <a href="https://collecties.codefor.nl">{{site.data.blocks.collections[page.lang]}}</a><br>
+        <a href="https://github.com/codefornl">Github</a><br>
+        <a href="https://twitter.com/codefornl">Twitter</a><br>
+        <a href="https://codefornl.slack.com">Slack</a><br>
+      </p>
+      <p>
         Stichting <b>Code for NL</b><br>
-        KvK <a target="_blank" href="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=69749477">69749477</a>
+        {{{{site.data.blocks.commerce[page.lang]}} <a target="_blank" href="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=69749477">69749477</a>
       </p>
-      <p class="social">
-        <a href="http://www.codefor.nl">www.codefor.nl</a>
-      </p>
-      <p class="social">
+      <p>
         <b>{{site.data.blocks.postal[page.lang]}}</b><br>
         Burg. de Joss. de Jongln. 8<br>
         3042 NH Rotterdam
       </p>
-      <p class="social">
+      <p>
         <b>{{site.data.blocks.office[page.lang]}}</b><br>
         The Hague Tech<br>
         Wilhelmina van Pruisenweg 35<br>
         2595 AN  Den Haag
       </p>
       <br>
-      <p class="social">
+      <!--<p>
         <a class="twitterBtn smGlobalBtn" href="https://twitter.com/codefornl" title="Code for NL op Twitter"></a>
         <a class="githubBtn smGlobalBtn" href="https://github.com/codefornl" title="Code for NL Github"></a>
-      </p>
-    </div>
-  </div>
+      </p>-->
 </footer>
 <!-- Matomo -->
 <script type="text/javascript">

@@ -1,17 +1,9 @@
-- url: http://waag.org/
-  img: /img/partners/waag.png
-  type: formal
-
 - url: https://be.okfn.org/
   img: /img/partners/ok-belgium.png
   type: formal
 
 - url: https://codefor.fr
   img: /img/partners/codeforfr.png
-  type: formal
-
-- url: http://www.codeforall.org/
-  img: /img/partners/codeforall.jpg
   type: formal
 
 - url: http://www.ictu.nl/

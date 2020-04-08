@@ -1,0 +1,26 @@
+{
+    "nl": [
+        {
+            "title": "Opgericht door:",
+            "img": "/img/premium/img_footer_waag.png",
+            "link": "https://waag.org"
+        },
+        {
+            "title": "Officiele partner van:",
+            "img": "/img/premium/img_footer_codeforall.png",
+            "link": "https://codeforall.org"
+        }
+    ],
+    "en": [
+        {
+            "title": "Founded by:",
+            "img": "/img/premium/img_footer_waag.png",
+            "link": "https://waag.org"
+        },
+        {
+            "title": "Official partner of:",
+            "img": "/img/premium/img_footer_codeforall.png",
+            "link": "https://codeforall.org"
+        }
+    ]
+}
