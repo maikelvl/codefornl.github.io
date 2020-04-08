@@ -26,5 +26,21 @@
                 "link_text": "Bekijk deze data"
             }
         ]
+    },
+    "trackers": {
+        "nl":[
+            {
+                "img": "/img/trackers/img_track_irma.png",
+                "link": "https://privacybydesign.foundation/irma/"
+            },
+            {
+                "img": "/img/trackers/img_track_pepppt.png",
+                "link": "https://www.pepp-pt.org/"
+            },
+            {
+                "img": "/img/trackers/img_track_privatetracer.png",
+                "link": "https://www.privatetracer.org/"
+            }
+        ]
     }
 }

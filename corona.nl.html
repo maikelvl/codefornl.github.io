@@ -41,8 +41,14 @@ permalink: /corona
     <p class="headline">
         Privacy en virus bestrijding gaan hand in hand - het zijn geen tegenstellingen, zoals soms wordt beweerd. Wij zien kansen voor de vele open alternatieven om nu hun waarde voor de democratie en onze gezondheid te bewijzen.
     </p>
+    <div class="item-list">
 
-   
+    {% for item in site.data.corona.trackers[page.lang] %}
+    <div class="item">
+        <a href="{{item.link}}"><img src="{{item.img}}"></a>
+    </div>
+    {% endfor %}
+    </div>   
   </section>
   <section class="block-40-a text-center">
     {% include stats.html %}
