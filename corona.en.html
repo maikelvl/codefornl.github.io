@@ -1,0 +1,56 @@
+---
+layout: page
+title: Together for the digital government
+tagline: Together for the digital government
+lang: en
+permalink: /en/corona
+---
+
+<header class="block-100-a-60"> 
+<div class="quote-box text-center">
+    <div class="quote-box__quote">"<span>Fight for the web</span>"</div>
+    <div class="quote-box__author text-center">- <span>Tim Berners Lee</span></div>
+   <p>
+         The impact of the corona virus on Dutch society is unprecedented. The measures that are now being taken will have long-lasting consequences. Not only for our health care and economy, but also for our democracy and fundamental rights.
+     </p> <p>
+         Code for NL is committed to a public digital infrastructure that enables the quick and easy sharing of essential data in the public domain. Who connects people and initiatives around equal rules and public code and who optimally protects our fundamental rights as privacy.
+     </p>
+     <p>
+         Our society and democracy need transparent and inclusive public infrastructure. A strong public tech network brings government and society together. To share ideas and solutions in an open conversation and learn from each other.
+     </p>
+</div>
+</header>
+<section  class="block-40-a text-center">
+  <h1>Corona data</h1>
+  <p class="headline">
+    In order to be agile in times of crisis as a society, access to information and data is essential. Code for NL supports all initiatives to make this data structurally and machine readable accessible to the public.
+  </p>
+  <div class="item-list">
+
+    {% for item in site.data.corona.apis[page.lang] %}
+    <div class="item">
+        <h4>{{item.title}}</h4>
+        <p>{{item.tagline}}</p>
+        <a href="{{item.link}}" class="item-button">{{item.link_text}}</a>
+    </div>
+    {% endfor %}
+</div>
+</section>
+<section  class="block-40-a text-center section__orange">
+    <h1>Tracers & Trackers</h1>
+    <p class="headline">
+        Privacy and virus control go hand in hand - they are not contradictions, as is sometimes claimed. We see opportunities for the many open alternatives to now prove their value to democracy and our health.
+    </p>
+    <div class="item-list">
+
+    {% for item in site.data.corona.trackers[page.lang] %}
+    <div class="item">
+        <a href="{{item.link}}"><img src="{{item.img}}"></a>
+    </div>
+    {% endfor %}
+    </div>   
+  </section>
+  <section class="block-40-a text-center">
+    {% include stats.html %}
+    {% include slack.html %}
+  </section>

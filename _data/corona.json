@@ -25,6 +25,32 @@
                 "tagline": "Ontsluiting data en source open stad gemeente Amsterdam",
                 "link_text": "Bekijk deze data"
             }
+        ],
+        "en":[
+            {
+                "title": "API's of developer.overheid.nl",
+                "link": "data.overheid.nl",
+                "tagline": "Overview of all APIs currently available from Dutch governments.",
+                "link_text": "View this data"
+            },
+            {
+                "title": "RIVM data Code For NL",
+                "link": "data.overheid.nl",
+                "tagline": "API disclosure of the RIVM contamination data.",
+                "link_text": "View this data"
+            },
+            {
+                "title": "Corona Pioniers VPRO",
+                "link": "data.overheid.nl",
+                "tagline": "Data and API for social corona initiatives.",
+                "link_text": "View this data"
+            },
+            {
+                "title": "Open City API",
+                "link": "data.overheid.nl",
+                "tagline": "Disclosure of data and source of open city of Amsterdam",
+                "link_text": "View this data"
+            }
         ]
     },
     "trackers": {
