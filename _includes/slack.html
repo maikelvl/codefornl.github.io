@@ -1,0 +1,8 @@
+{% assign action = site.data.blocks.community[page.lang] %}
+<div class="top-60">
+    <h2 style="color: #777977">{{action.slack_tagline}}</h2>
+    <form method="post" action="https://praatmee.codefor.nl">
+      <input type="text" placeholder="{{action.name}}"> <input type="text" placeholder="{{action.email}}">
+      <button>{{action.signup}}</button>
+    </form>
+  </div>

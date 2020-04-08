@@ -404,6 +404,15 @@ h1,
       font-size: 32px;
     }
 
+    .section__orange {
+      background: #E15532;
+      color: #fff;
+      padding: 3em;
+    }
+
+    .section__orange h1 {
+      color: #fff;
+    }
     .nav__logo--background-orange {
       background: #F7931D;
       color: white;
@@ -552,7 +561,14 @@ h1,
 
       .quote-box {
         background: #74C7A8;
+        color: #fff;
+        padding: 3em;
       }
+
+      .quote-box p {
+        font-size: 1.3em;
+      }
+
       .quote-box__quote,
       .quote-box__author {
         font-family: 'Anton', sans-serif;
@@ -561,13 +577,20 @@ h1,
       .quote-box__quote {
         font-size: 64px;
         line-height: 1.4em;
-        padding: 64px 100px 40px;
       }
+
       .quote-box__author {
         font-size: 24px;
         text-align: right;
         padding: 20px 100px 64px;
       }
+      .quote-box__author.text-center {
+        font-size: 24px;
+        text-align: center;
+        padding: 0;
+      }
+
+      
 
 
       .reading-time {
@@ -832,4 +855,40 @@ blockquote p {
       margin: 20px auto;
       display: inline-block;
     }
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  width: 30%;
+  margin: 3px;
+  max-width: 314px;
+}
+
+.item h4 {
+  font-family: 'Anton', sans-serif;
+  color: #666;
+  padding-top: 2em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  font-size: 1.3em;
+  margin-bottom: 0;
+}
+.item p {
+  padding-left: 1em;
+  padding-right: 1em;
+  flex-grow: 1;
+}
+
+.item-button {
+  font-family: 'Anton', sans-serif;
+  background: #666;
+  padding: 1em;
 }

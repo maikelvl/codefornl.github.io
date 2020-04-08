@@ -1,0 +1,50 @@
+---
+layout: page
+title: Samenwerken aan de Digitale Overheid
+tagline: Samenwerken aan de Digitale Overheid.
+lang: nl
+permalink: /corona
+---
+
+<header class="block-100-a-60"> 
+<div class="quote-box text-center">
+    <div class="quote-box__quote">"<span>Fight for the web</span>"</div>
+    <div class="quote-box__author text-center">- <span>Tim Berners Lee</span></div>
+    <p>
+        De impact van het corona virus op de Nederlandse samenleving is ongekend groot. De maatregelen die nu worden genomen zullen jarenlange, diepgaande gevolgen hebben. Niet alleen voor onze gezondheidzorg en economie, maar ook voor onze democratie en grondrechten.
+    </p><p>
+        Code for NL maakt zich hard voor een publieke digitale infrastructuur die het snel en eenvoudig delen van essentiele data in het publieke domein mogelijk maakt. Die mensen en initiatieven rond gelijke spelregels en publieke code aan elkaar verbindt En die onze grondrechten als privacy optimaal beschermd.
+    </p>
+    <p>
+        Onze samenleving en democratie hebben transparante en solidaire publieke infrastruur nodig. Een sterk public tech netwerk brengt overheid en samenleving samen. Om ideeen en oplossingen in een open gesprek met elkaar te delen en van elkaar te leren.
+    </p>
+</div>
+</header>
+<section  class="block-40-a text-center">
+  <h1>Corona data</h1>
+  <p class="headline">
+    Om in tijden van crisis als maatschappij wendbaar te zijn is toegang tot informatie en data essentieel. Code for NL ondersteund alle initatieven om deze data structureel en machine leesbaar publiek toegankelijk te maken. 
+  </p>
+  <div class="item-list">
+
+    {% for item in site.data.corona.apis[page.lang] %}
+    <div class="item">
+        <h4>{{item.title}}</h4>
+        <p>{{item.tagline}}</p>
+        <a href="{{item.link}}" class="item-button">{{item.link_text}}</a>
+    </div>
+    {% endfor %}
+</div>
+</section>
+<section  class="block-40-a text-center section__orange">
+    <h1>Tracers & Tracers</h1>
+    <p class="headline">
+        Privacy en virus bestrijding gaan hand in hand - het zijn geen tegenstellingen, zoals soms wordt beweerd. Wij zien kansen voor de vele open alternatieven om nu hun waarde voor de democratie en onze gezondheid te bewijzen.
+    </p>
+
+   
+  </section>
+  <section class="block-40-a text-center">
+    {% include stats.html %}
+    {% include slack.html %}
+  </section>

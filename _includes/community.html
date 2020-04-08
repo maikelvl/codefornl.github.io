@@ -4,19 +4,6 @@
   <p class="headline">
     {{ action.content }}
   </p>
-  <div class="community-stats top-60">
-    {% for stat in site.data.community[page.lang] %}
-    <div class="community-stat">
-      <div class="community-stat-number" style="color:{{stat.color}}">{{stat.value}}</div>
-      <div class="community-stat-text">{{stat.label}}</div>
-    </div>
-    {% endfor %}
-  </div>
-  <div class="top-60">
-    <h2 style="color: #777977">{{action.slack_tagline}}</h2>
-    <form method="post" action="https://praatmee.codefor.nl">
-      <input type="text" placeholder="{{action.name}}"> <input type="text" placeholder="{{action.email}}">
-      <button>{{action.signup}}</button>
-    </form>
-  </div>
+  {% include stats.html %}
+  {% include slack.html %}
 </section>

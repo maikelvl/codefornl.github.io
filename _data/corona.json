@@ -1,0 +1,30 @@
+{
+    "apis": {
+        "nl":[
+            {
+                "title": "API's van developer.overheid.nl",
+                "link": "data.overheid.nl",
+                "tagline": "Overzicht van alle API's momenteel beschikbaar vanuit Nederlandse overheden.",
+                "link_text": "Bekijk deze data"
+            },
+            {
+                "title": "RIVM data Code For NL",
+                "link": "data.overheid.nl",
+                "tagline": "API ontsluiting van de RIVM besmettingsdata.",
+                "link_text": "Bekijk deze data"
+            },
+            {
+                "title": "Corona Pioniers VPRO",
+                "link": "data.overheid.nl",
+                "tagline": "Data en API voor maatschappelijke corona initiatieven.",
+                "link_text": "Bekijk deze data"
+            },
+            {
+                "title": "Open Stad API",
+                "link": "data.overheid.nl",
+                "tagline": "Ontsluiting data en source open stad gemeente Amsterdam",
+                "link_text": "Bekijk deze data"
+            }
+        ]
+    }
+}
