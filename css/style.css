@@ -106,6 +106,10 @@ main section {
     margin-top: 80px
 }
 
+section h2 {
+  text-transform: uppercase;
+}
+
 p {
     margin: 1em 0em;
     line-height: 1.4em;
@@ -540,6 +544,7 @@ h1,
         font-family: 'Anton', sans-serif;
         color: #777977;
         font-size: 1.4em;
+        text-transform: uppercase;
       }
       .heroins__item div {
         height: 180px;

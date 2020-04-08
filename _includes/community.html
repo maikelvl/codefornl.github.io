@@ -1,21 +1,22 @@
 <section class="block-40-a text-center">
-  <h2>COMMUNITY</h2>
+  {% assign action = site.data.blocks.community[page.lang] %}
+  <h2>{{ action.title}}</h2>
   <p class="headline">
-    Wij zijn de developers en designers die samenwerken aan<br>
-    een open en eerlijke digitale overheid en samenleving.
+    {{ action.content }}
   </p>
   <div class="community-stats top-60">
-    {% for stat in site.data.community %}
+    {% for stat in site.data.community[page.lang] %}
     <div class="community-stat">
-    <div class="community-stat-number" style="color:{{stat.color}}">{{stat.value}}</div>
+      <div class="community-stat-number" style="color:{{stat.color}}">{{stat.value}}</div>
       <div class="community-stat-text">{{stat.label}}</div>
     </div>
     {% endfor %}
   </div>
   <div class="top-60">
-    <h2 style="color: #777977">praat mee op Slack</h2>
-      <form method="post" action="https://praatmee.codefor.nl">
-      <input type="text" placeholder="naam"> <input type="text" placeholder="email"> <button>MELD JE AAN</button>
-      </form>
+    <h2 style="color: #777977">{{action.slack_tagline}}</h2>
+    <form method="post" action="https://praatmee.codefor.nl">
+      <input type="text" placeholder="{{action.name}}"> <input type="text" placeholder="{{action.email}}">
+      <button>{{action.signup}}</button>
+    </form>
   </div>
 </section>

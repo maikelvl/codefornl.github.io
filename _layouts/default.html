@@ -5,12 +5,26 @@
 
 <body>
   {% include nav.html %}
+  {% include action.html %}
+  <a name="community"></a>
+  {% include community.html %}
+  <a name="training"></a>
+  {% include heroins.html %}
   {% include header.html %}
-  <main>
-    <div class="wrapper">
-    {{ content }}
-    </div>
-  </main>
+  <a name="programs"></a>
+  {% include programs.html %}
+  <a name="tfnt"></a>
+  {% include tfnt.html %}
+  <a name="meetups"></a>
+  {% include meetups.html %}
+  <a name="collecties"></a>
+  {% include collecties.html %}
+  {% include github.html %}
+  <a name="swag"></a>
+  {% include swag.html %}
+  {% include partners.html %}
+  <a name="organisatie"></a>
+  {% include organisation.html %}
   {% include footer.html %}
 </body>
 </html>

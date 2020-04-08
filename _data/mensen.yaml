@@ -1,7 +1,8 @@
 - name: Milo van der Linden
   organisation: bestuur
-  function: voorzitter
-  function_en: chair
+  function: 
+    nl: voorzitter
+    en: chair
   email: milo@codefor.nl
   img: /img/milo.jpg
   twitter: https://twitter.com/miblon
@@ -10,8 +11,9 @@
 
 - name: Ivonne Jansen - Dings
   organisation: bestuur
-  function: penningmeester
-  function_en: treasurer
+  function: 
+    nl: penningmeester
+    en: treasurer
   email: ivonne@codefor.nl
   img: /img/ivonne.jpg
   linkedin: https://www.linkedin.com/in/ivonnejansendings/
@@ -21,8 +23,9 @@
 
 - name: Johan Groenen
   organisation: bestuur
-  function: secretaris
-  function_en: secretary
+  function: 
+    nl: secretaris
+    en: secretary
   email: johan@codefor.nl
   img: /img/johan.jpg
   linkedin: https://www.linkedin.com/in/jgroenen/
@@ -35,8 +38,9 @@
 
 - name: Edo Plantinga
   organisation: bestuur
-  function: bestuurslid
-  function_en: board member
+  function: 
+    nl: bestuurslid
+    en: board member
   email: edo@codefor.nl
   img: /img/edo.jpg
   linkedin: https://www.linkedin.com/in/edoplantinga/
@@ -46,8 +50,9 @@
 
 - name: Sander van Waal
   organisation: bestuur
-  function: bestuurslid
-  function_en: board member
+  function: 
+    nl: bestuurslid
+    en: board member
   email: sander@codefor.nl
   img: /img/sander.jpg
   linkedin: https://www.linkedin.com/in/sandervanderwaal/
@@ -56,8 +61,9 @@
 
 - name: Safia Akkus
   organisation: programma
-  function: community manager
-  function_en: community manager
+  function: 
+    nl: community manager
+    en: community manager
   email: safia@codefor.nl
   img: /img/safia.png
   linkedin: https://www.linkedin.com/in/safia-akkus-22257247/
@@ -67,8 +73,9 @@
 
 - name: Tamas Erkelens
   organisation: programma
-  function: Gemeente Amsterdam
-  function_en: City of Amsterdam
+  function: 
+    nl: Gemeente Amsterdam
+    en: City of Amsterdam
   email: t.erkelens@amsterdam.nl
   img: /img/tamas.jpg
   linkedin: https://www.linkedin.com/in/tamas-erkelens-4a42252a/
@@ -78,8 +85,9 @@
 
 - name: Gerhard Dekker
   organisation: programma
-  function: Hoofd DDC CBS
-  function_en: Chief DDC CBS
+  function: 
+    nl: Hoofd DDC CBS
+    en: Chief DDC CBS
   email: g.dekker@cbs.nl
   img: /img/gerhard.jpg
   linkedin: https://www.linkedin.com/in/gerharddekker/
@@ -88,8 +96,9 @@
 
 - name: Chris Vast
   organisation: programma
-  function: VNG Realisatie
-  function_en: VNG Realisatie
+  function: 
+    nl: VNG Realisatie
+    en: VNG Realisatie
   img: /img/chris.jpg
   linkedin: https://www.linkedin.com/in/chrisvast/
   groups: [ai-met-impact]

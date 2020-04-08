@@ -1,11 +1,11 @@
 <section  class="block-40-a text-center">
-  <h1>Organisatie</h1>
+  <h1>{{ site.data.blocks.organisation[page.lang]}}</h1>
   {% for mens in site.data.mensen %}{% if mens.groups contains "board" or mens.groups contains "active" %}
   <div class="persoon">
     <img class="pasfoto" src="{{ mens.img }}">
     <p>
       {{ mens.name }}<br>
-      {{ mens.function }}<br>
+      {{ mens.function[page.lang] }}<br>
       <a href="mailto:{{ mens.email }}">{{ mens.email }}</a>
     </p>
     <p class="social">

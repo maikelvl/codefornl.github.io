@@ -1,7 +1,8 @@
 <header class="block-100-a-60">
   <div class="action-box">
-    <div class="action-box__action">"<span>Civic Tech tegen Corona. Doe mee!</span>"</div>
-    <div class="action-box__author"><span><a href="/corona" style="color: #FFFFFF; text-decoration: underline">www.codefor.nl/corona</a></span></div>
+    {% assign action = site.data.blocks.corona[page.lang] %}
+    <div class="action-box__action">"<span>{{action.title}}</span>"</div>
+    <div class="action-box__author"><span><a href="{{action.link}}" style="color: #FFFFFF; text-decoration: underline">{{ action.link_title }}</a></span></div>
   </div>
   <!-- <script>
     var actions = [

@@ -1,17 +1,36 @@
-[
-    {
-       "color" : "#70C09D",
-       "value": 523,
-       "label": "community leden in Nederland"
-    },
-    {
-        "color" : "#E15532",
-        "value": 134,
-        "label": "actieve leden in Nederland"
-     },
-     {
-        "color" : "#EC8C39",
-        "value": 31,
-        "label": "Partner organisaties <a href=\"https://codeforall.org\">wereldwijd</a>"
-     }
-]
+{
+   "nl": [
+      {
+         "color": "#70C09D",
+         "value": 523,
+         "label": "community leden in Nederland"
+      },
+      {
+         "color": "#E15532",
+         "value": 134,
+         "label": "actieve leden in Nederland"
+      },
+      {
+         "color": "#EC8C39",
+         "value": 31,
+         "label": "Partner organisaties <a href=\"https://codeforall.org\">wereldwijd</a>"
+      }
+   ],
+   "en": [
+      {
+         "color": "#70C09D",
+         "value": 523,
+         "label": "community members in the Netherlands"
+      },
+      {
+         "color": "#E15532",
+         "value": 134,
+         "label": "active members in the Netherlands"
+      },
+      {
+         "color": "#EC8C39",
+         "value": 31,
+         "label": "Partner organisations <a href=\"https://codeforall.org\">worldwide</a>"
+      }
+   ]
+}

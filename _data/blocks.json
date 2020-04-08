@@ -1,0 +1,76 @@
+{
+    "site": {
+        "nl": {
+            "tagline": "Samenwerken aan de digitale overheid",
+            "programs": "Programma's"
+        },
+        "en": {
+            "tagline": "Together for the digital government",
+            "programs": "Programs"
+        }
+    },
+    "office": {
+        "nl": "Bezoekadres",
+        "en": "Office"
+    },
+    "postal": {
+        "nl": "Postadres",
+        "en": "Mail"
+    },
+    "corona": {
+        "nl": {
+            "title": "Civic Tech tegen Corona. Doe mee!",
+            "link": "/corona",
+            "link_title": "Lees meer"
+        },
+        "en": {
+            "title": "Civic Tech against Corona. Join us!",
+            "link": "/en/corona",
+            "link_title": "Read more"
+        }
+    },
+    "community": {
+        "nl": {
+            "title": "Community",
+            "content": "Wij zijn de developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving.",
+            "slack_tagline": "praat mee op Slack",
+            "name": "naam",
+            "email": "email",
+            "signup": "Meld je aan"
+        },
+        "en": {
+            "title": "Community",
+            "content": "We are the developers and designers who work together on an open and honest digital government and society.",
+            "slack_tagline": "Join the conversation on Slack",
+            "name": "name",
+            "email": "email",
+            "signup": "Sign up"
+        }
+    },
+    "meetups": {
+        "nl": "Kijk op https://www.meetup.com/Code-For-NL",
+        "en": "Check https://www.meetup.com/Code-For-NL"
+    },
+    "github": {
+        "nl": "Kijk op https://github.com/codefornl",
+        "en": "Check https://github.com/codefornl"
+    },
+    "tfnt": {
+        "nl":"Meld je aan voor onze TECH FOR NON TECH trainingsdag over technologie en digitalisering van de overheid; voor iedereen in de overheid die meer grip wil op de kernconcepten achter digitale transformatie. Stuur voor meer informatie een mail naar <a href=\"info@codefor.nl\">info@codefor.nl</a>.",
+        "en":"Register for our TECH FOR NON TECH training day on technology and government digitization; for anyone in government who wants to get a better grip on the core concepts behind digital transformation. For more information, send an email to <a href=\"info@codefor.nl\">info@codefor.nl</a>."
+    },
+    "programs": {
+        "nl": {
+            "title": "Programma's",
+            "tagline": "We denken constructief mee en bouwen aan open source communities."
+        },
+        "en": {
+            "title": "Programs",
+            "tagline": "We think constructively and build open source communities."
+        }
+    },
+    "organisation": {
+        "nl": "Organisatie",
+        "en": "Our team"
+    }
+}
