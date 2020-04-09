@@ -1,7 +1,10 @@
 nav {
     margin: 0 auto;
-    padding: 1em;
+    padding: 1em 0;
     max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .nav__menu li {
     display: inline-block;
@@ -16,21 +19,40 @@ nav {
 }
 
 .nav__logo {
-    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    img {
+        height: 48px;
+        margin: 4px 8px 0 0;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        span {
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 28px;
+            margin: 0 48px 0 0;
+            padding: 0;
+        }
+        p {
+            font-size: 12px;
+            margin: 0;
+        }
+    }
+    
 }
 
 .nav__logo--highlight {
     background: $highlight-color;
     color: $text-light;
-    vertical-align: 11px;
 }
 
 .nav__menu {
     text-transform: uppercase;
-    float: right;
-    padding-top: 10px;
-    line-height: 1.4em;
-    margin-right: 10px;
+    padding-top: 0;
+    margin: 12px 0 0 0;
 }
 
 .nav__menu li {

@@ -1,7 +1,11 @@
 <nav class="nav__site">
   <div class="nav__logo">
-    <img src="/img/Logo-slash-01.png" style="height: 48px"> <span class="nav__logo--highlight">&nbsp;CODE for NL&nbsp;</span>
-    <div style="margin-top: 10px; font-size: 12px; margin-left: 80px">{{ site.data.blocks.site[page.lang].tagline}}</div>
+    <img src="/img/Logo-slash-01.png">
+    <div>
+      <span class="nav__logo--highlight">CODE for NL</span>
+      <p>{{ site.data.blocks.site[page.lang].tagline}}</p>
+    </div>
+    
   </div>
   <ul class="nav__menu">
     {% if page.lang == "nl" %}
