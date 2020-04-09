@@ -1,0 +1,862 @@
+@import "base";
+@import "variables";
+
+@import "action";
+@import "people";
+
+html,
+body {
+    font-family: $body-font;
+    font-size: 100%;
+    color: $text-dark;
+}
+
+a {
+    text-decoration: none;
+    color: $secondary-color;
+}
+
+header {
+    h2 {
+        margin: 80px 0;
+        font-size: 1.6em;
+        text-align: center;
+        color: $secondary-inverse;
+    }
+}
+
+footer {
+    min-height: 200px;
+    background: $secondary-inverse;
+    padding: 3em;
+    margin: 0 auto;
+    color: $text-light;
+    max-width: 960px;
+}
+
+.green-text {
+    color: $secondary-color;
+}
+
+.orange-text {
+    color: $highlight-color;
+}
+
+.red-text {
+    color: $primary-color;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: auto;
+}
+
+.logo {
+    display: block;
+    width: 170px;
+    text-align: center;
+    margin: 20px auto 20px;
+
+    img {
+        display: block;
+        width: 150px;
+    }
+
+    h1 {
+        color: $secondary-color;
+        font-size: 1.4em;
+        margin-top: 0;
+    }
+}
+
+.col-link {
+    display: inline-block;
+    width: 40%;
+    border: 1px solid $border-color;
+    padding: 1em;
+    vertical-align: bottom;
+    height: 13em;
+    border-radius: $border-radius;
+    min-width: 200px;
+    margin: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    border-bottom: 4px solid $border-color;
+    color: $secondary-inverse;
+}
+
+.col-link img.icon {
+    width: 60px;
+    filter: grayscale(80%);
+}
+
+.col-link h2 {
+    font-size: 1em;
+}
+
+.col-link:hover img {
+    filter: none;
+}
+
+.col-link:active {
+    border-bottom: 1px solid $border-color;
+}
+
+.nav__menu li {
+    display: inline-block;
+}
+
+p.headline {
+    font-size: 1.3em;
+    margin-bottom: 0em;
+}
+
+img.icon {
+    background: $secondary-color;
+    padding: 20px;
+    border-radius: $border-radius;
+    margin: 20px;
+    width: 100px;
+}
+
+p.social {
+    text-align: center;
+}
+
+a.social {
+    text-decoration: none;
+}
+
+img.social {
+    width: 30px;
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.left {
+    float: left;
+    width: 200px;
+}
+
+.right {
+    float: right;
+    width: 530px;
+}
+
+a.cta_button {
+    display: block;
+    font-size: 1.2em;
+    color: $text-light;
+    background: $highlight-color;
+    box-shadow: 0px 3px 2px $border-color;
+    margin: 0.8em;
+    padding: 0.8em;
+    text-decoration: none;
+    border-radius: $border-radius;
+    width: 10em;
+    margin: 80px auto 40px;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+a.cta_button_inline {
+    margin: 0;
+    background: $secondary-color;
+}
+
+.social a {
+    margin-right: 0.4em;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: $text-light;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    border-radius: $border-radius;
+    -moz-border-radius: $border-radius;
+    -webkit-border-radius: $border-radius;
+    vertical-align: bottom;
+}
+
+.twitterBtn {
+    background: #00ABE3; /* Twitter color */
+}
+
+.twitterBtn:before {
+    font-family: "FontAwesome";
+    content: "\f099"; /* add twitter icon */
+}
+
+/* linkedin button class*/
+.linkedinBtn {
+    background: #0094BC; /* linkedIn Color */
+}
+
+.linkedinBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0e1"; /* add linkedin icon */
+}
+
+/* github button class*/
+.githubBtn {
+    background: #171515; /*github color*/
+}
+
+.githubBtn:before {
+    font-family: "FontAwesome";
+    content: "\f09b"; /* add github icon */
+}
+
+/* medium button class*/
+.mediumBtn {
+    color: #333333; /*medium color*/
+    background-image: url("../img/social/Medium.png");
+    background-size: 32px 32px;
+}
+
+/* email button class*/
+.emailBtn {
+    background: $text-dark;
+}
+
+.emailBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0e0"; /* add email icon */
+}
+
+/* website button class*/
+.websiteBtn {
+    background-image: url("../img/social/website.png");
+    background-size: 32px 32px;
+}
+
+/* slack button class */
+.slackBtn {
+    background-image: url("../img/social/Slack.png");
+    background-size: 32px 32px;
+}
+
+/* partup button class */
+.partupBtn {
+    background-image: url("../img/social/Partup.png");
+    background-size: 32px 32px;
+}
+
+.project {
+    margin-top: 40px;
+    background: $text-light;
+    width: 100%;
+}
+
+.project img {
+    background: $secondary-inverse;
+    min-height: 340px;
+    width: 100%;
+}
+
+.project p,
+.project h1 {
+    margin: 20px;
+}
+
+.partner-img {
+    max-width: 140px;
+    max-height: 140px;
+    margin: auto;
+}
+
+.partner-img-wrapper {
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    background: $text-light;
+    border: 1px solid $border-color;
+    box-shadow: $border-color 0 0 6px;
+    margin: 20px;
+    vertical-align: top;
+}
+
+p.intro {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+p.example {
+    background: $primary-inverse;
+    padding: 1em;
+}
+
+span.badge {
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 0 solid transparent;
+}
+
+.meedoen {
+    border-color: rgb(151, 189, 46) !important;
+}
+
+.meedoen > .card-label {
+    color: rgb(151, 189, 46) !important;
+}
+
+.meeleren {
+    border-color: rgb(52, 143, 170) !important;
+}
+
+.meeleren > .card-label {
+    color: rgb(52, 143, 170) !important;
+}
+
+.meekijken {
+    border-color: rgb(86, 22, 92) !important;
+}
+
+.meekijken > .card-label {
+    color: rgb(86, 22, 92) !important;
+}
+
+.card {
+    border-left: 7px solid transparent;
+    margin: 0.5em;
+    background: $primary-inverse;
+}
+
+.card-title {
+    font-size: 1.4em;
+}
+
+.card-label {
+    writing-mode: vertical-lr;
+    margin: 4px 10px 20px 2px;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $header-font;
+    line-height: 2em;
+    color: $primary-color;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.4em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.nav__logo,
+.nav__menu {
+    display: inline-block;
+    font-family: $header-font;
+    color: $secondary-inverse;
+    font-size: 24px;
+}
+
+.nav__logo {
+    font-size: 32px;
+}
+
+.section__orange {
+    background: $primary-color;
+    color: $text-light;
+    padding: 3em;
+}
+
+.section__orange h1 {
+    color: $text-light;
+}
+
+.nav__logo--background-orange {
+    background: $highlight-color;
+    color: $text-light;
+    vertical-align: 11px;
+}
+
+.nav__menu {
+    text-transform: uppercase;
+    float: right;
+    padding-top: 10px;
+    line-height: 1.4em;
+    margin-right: 10px;
+}
+
+.nav__menu li {
+    padding: 0 4px;
+}
+
+.nav__menu li:hover {
+    background: $highlight-color;
+    cursor: pointer;
+}
+
+.nav__menu li:hover a {
+    color: $text-light;
+}
+
+.block-40-a {
+    max-width: 960px;
+    margin: 40px auto;
+}
+
+.block-100-a-60 {
+    max-width: 960px;
+    margin: 100px auto 60px;
+}
+
+.block-60-a {
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.block-100-a {
+    max-width: 960px;
+    margin: 100px auto;
+}
+
+.codefornl-nav {
+    background: $secondary-inverse;
+    padding: 8px 0;
+    text-align: left;
+}
+
+.codefornl-nav--content-block {
+    max-width: 800px;
+    margin: auto;
+}
+
+.codefornl-nav--menu-item {
+    font-family: $header-font;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 28px;
+    color: $text-light;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.community-stats {
+    display: flex;
+}
+
+.community-stat {
+    flex: 1;
+}
+
+.community-stat-number {
+    font-family: $header-font;
+    font-size: 5.2em;
+    margin: 0.3em 0;
+}
+
+.community-stat-text {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    color: $text-dark;
+}
+
+input, button {
+    border: 0.1em solid $border-color;
+    padding: 1.2em;
+}
+
+button {
+    background: $primary-color;
+    color: $text-light;
+}
+
+.post__item {
+    display: inline-block;
+    text-align: left;
+    padding: 1.2em;
+    flex: 1;
+    border: 1px solid $border-color;
+    margin: 1em;
+    border-radius: $border-radius;
+    min-width: 260px;
+    max-width: 380px;
+}
+
+.post__item .card-title {
+    margin-top: 20px;
+    display: block;
+}
+
+.post__item-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.post__item div {
+    height: 180px;
+}
+
+.heroins__item {
+    display: inline-block;
+    text-align: center;
+}
+
+.heroins__item h2 {
+    margin-top: 24px;
+    font-family: $header-font;
+    color: $text-dark;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.heroins__item div {
+    height: 180px;
+}
+
+.quote-box {
+    background: $secondary-color;
+    color: $text-light;
+    padding: 3em;
+}
+
+.quote-box p {
+    font-size: 1.3em;
+}
+
+.quote-box__quote,
+.quote-box__author {
+    font-family: $header-font;
+    color: $text-light;
+}
+
+.quote-box__quote {
+    font-size: 64px;
+    line-height: 1.4em;
+}
+
+.quote-box__author {
+    font-size: 24px;
+    text-align: right;
+    padding: 20px 100px 64px;
+}
+
+.quote-box__author.text-center {
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+}
+
+.reading-time {
+    color: $highlight-inverse;
+    font-style: italic;
+}
+
+.blog {
+    color: $secondary-inverse;
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    hr {
+        margin: 1.5em 0;
+        text-align: center;
+        border: none;
+    }
+
+    hr:after {
+        content: '';
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: $highlight-inverse;
+        margin: 0 0.4em;
+    }
+
+    hr:before {
+        content: '';
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: $highlight-inverse;
+        margin: 0 0.4em;
+    }
+}
+
+.tfnt {
+    background: $secondary-inverse;
+}
+
+.tfnt-line {
+    font-family: $body-font;
+    font-size: 80px;
+    line-height: 1.1em;
+    overflow: hidden;
+}
+
+.tfnt-line-wrap {
+    display: flex;
+    white-space: nowrap;
+}
+
+.word {
+    flex-grow: 1;
+    padding: 2px 10px;
+    margin: 0;
+}
+
+.color1 {
+    background: $secondary-inverse; /* grey */
+    color: $primary-color; /* orange */
+}
+
+.color2 {
+    background: $primary-color; /* red */
+    color: $secondary-color; /* green */
+}
+
+.color3 {
+    background: $primary-color; /* orange */
+    color: $primary-color; /* red */
+}
+
+.color4 {
+    background: $secondary-color; /* green */
+    color: $secondary-inverse; /* grey */
+}
+
+.top-60 {
+    margin-top: 60px;
+}
+
+.heroins {
+    display: flex;
+}
+
+.post__container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+blockquote {
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "“" "”" "‘" "’";
+}
+
+blockquote:before {
+    color: $highlight-inverse;
+    content: "\201C";
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    color: $secondary-inverse;
+    display: inline;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/*  Smartphones in landscape mode */
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+    .quote-box__quote {
+        font-size: 48px;
+    }
+
+    .left {
+        text-align: center;
+        width: 100%;
+    }
+
+    .left img {
+        width: 48px;
+        margin: 12px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .left {
+        float: none;
+    }
+
+    .right {
+        float: none;
+        width: 100%;
+    }
+
+    .calendar {
+        float: none;
+        width: 100%;
+    }
+
+    .centered_content h2 {
+        text-align: center;
+    }
+
+    .heroins {
+        display: block;
+    }
+
+    .community-stats {
+        display: block;
+    }
+
+    .heroins__item {
+        padding: 1em;
+    }
+
+    .partner-img-wrapper {
+        margin: 10px;
+    }
+
+    .partner-img-wrapper {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+
+    .partner-img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+/*  Smartphones in portrait mode  */
+@media only screen and (max-width: 420px) {
+    h2 {
+        font-size: 2em;
+    }
+
+    .nav__logo {
+        font-size: 28px;
+        display: block;
+    }
+
+    .quote-box__quote {
+        line-height: 1.4em;
+        padding: 28px 60px 40px;
+        font-size: 28px;
+    }
+
+    p {
+        margin: 1em 1em;
+    }
+
+    .block-40-a {
+        padding: 20px auto;
+    }
+
+    .top-60 {
+        margin-top: 24px;
+    }
+
+    .heroins {
+        display: block;
+    }
+
+    .community-stats {
+        display: block;
+    }
+
+    .partner-img-wrapper {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+
+    .partner-img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    width: 30%;
+    margin: 3px;
+    max-width: 314px;
+}
+
+.item img {
+    margin: 2em;
+}
+
+.item h4 {
+    font-family: $header-font;
+    color: $secondary-inverse;
+    padding-top: 2em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    font-size: 1.3em;
+    margin-bottom: 0;
+}
+
+.item p {
+    padding-left: 1em;
+    padding-right: 1em;
+    flex-grow: 1;
+}
+
+.item-button {
+    font-family: $body-font;
+    background: $secondary-inverse;
+    padding: 1em;
+}
+
+.founder-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.founder {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    width: 30%;
+    margin: 3px;
+    max-width: 314px;
+}

@@ -1,7 +1,7 @@
 <div class="community-stats top-60">
     {% for stat in site.data.community[page.lang] %}
     <div class="community-stat">
-      <div class="community-stat-number" style="color:{{stat.color}}">{{stat.value}}</div>
+      <div class="community-stat-number {{stat.color}}">{{stat.value}}</div>
       <div class="community-stat-text">{{stat.label}}</div>
     </div>
     {% endfor %}

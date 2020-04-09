@@ -1,0 +1,32 @@
+.person {
+    width: 200px;
+    padding: 10px;
+    border-bottom: 1px solid $highlight-inverse;
+    display: inline-block;
+    margin: 10px;
+
+    .picture {
+        width: 100%;
+        border-radius: 50%;
+    }
+}
+
+.person {
+    display: block;
+    margin: 40px auto;
+}
+
+@media #{$media-s} {
+    .person {
+        display: block;
+        margin: 40px auto;
+    }
+}
+
+@media #{$media-xs} {
+    .person {
+        width: 180px;
+        margin: 20px auto;
+        display: inline-block;
+    }
+}

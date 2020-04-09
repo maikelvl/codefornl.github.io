@@ -1,0 +1,57 @@
+.action-box {
+    background: $highlight-color;
+
+    .action-box__action,
+    .action-box__author {
+        font-family: $header-font;
+        color: $highlight-inverse;
+    }
+
+    .action-box__action {
+        line-height: 1.4em;
+        padding: 64px 100px 40px;
+    }
+
+    .action-box__author {
+        font-size: 24px;
+        text-align: right;
+        padding: 20px 100px 64px;
+    }
+
+    .action-link {
+        color: $text-light;
+        text-decoration: "underline";
+    }
+}
+
+@media #{$media-xl} {
+    .action-box__action {
+        font-size: 64px;
+    }
+}
+
+@media #{$media-l} {
+    .action-box__action {
+        font-size: 64px;
+    }
+}
+
+@media #{$media-m} {
+    .action-box__action {
+        font-size: 64px;
+    }
+}
+
+@media #{$media-s} {
+    .action-box__action {
+        font-size: 48px;
+    }
+}
+
+@media #{$media-xs} {
+    .action-box__action {
+        line-height: 1.4em;
+        padding: 28px 60px 40px;
+        font-size: 28px;
+    }
+}
