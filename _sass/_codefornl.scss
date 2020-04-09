@@ -1,5 +1,6 @@
 @import "base";
 @import "variables";
+@import "nav";
 
 @import 'item';
 @import "action";
@@ -109,15 +110,6 @@ footer {
 
 .col-link:active {
     border-bottom: 1px solid $border-color;
-}
-
-nav {
-    margin: 0 auto;
-    padding: 1em;
-    max-width: 960px;
-}
-.nav__menu li {
-    display: inline-block;
 }
 
 p.headline {
@@ -381,18 +373,6 @@ h3 {
     text-align: center;
 }
 
-.nav__logo,
-.nav__menu {
-    display: inline-block;
-    font-family: $header-font;
-    color: $secondary-inverse;
-    font-size: 24px;
-}
-
-.nav__logo {
-    font-size: 32px;
-}
-
 .section-highlight {
     background: $primary-color;
     color: $text-light;
@@ -400,34 +380,6 @@ h3 {
     h1 {
         color: $text-light;
     }
-}
-
-
-.nav__logo--highlight {
-    background: $highlight-color;
-    color: $text-light;
-    vertical-align: 11px;
-}
-
-.nav__menu {
-    text-transform: uppercase;
-    float: right;
-    padding-top: 10px;
-    line-height: 1.4em;
-    margin-right: 10px;
-}
-
-.nav__menu li {
-    padding: 0 4px;
-}
-
-.nav__menu li:hover {
-    background: $highlight-color;
-    cursor: pointer;
-}
-
-.nav__menu li:hover a {
-    color: $text-light;
 }
 
 input, button {
