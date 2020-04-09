@@ -19,7 +19,7 @@ Vanuit de Code for NL community ontstaan geregeld nieuwe projecten. Dit noemen w
   - het project de Code for NL [gedragscode](https://github.com/codefornl/gedragscode/blob/master/gedragscode_code_for_nl.md) volgt en actief toepast;
   - de dingen die worden gemaakt open source en/of creative commons zijn;
 - vindt plaats onder volledige verantwoordelijkheid van de initiatiefnemers, zowel voor het project als voor de dingen die worden gemaakt;
-- voert het logo van Code for NL in het project en in de dingen die worden gemaakt, met daarbij de tekst “Dit is een Code for NL *Community Project* [codefor.nl/communityprojects](https://www.codefor.nl/communityprojects))”.
+- voert het logo van Code for NL in het project en in de dingen die worden gemaakt, met daarbij de tekst “Dit is een Code for NL *Community Project* [codefor.nl/communityprojects](https://www.codefor.nl/communityprojects)”.
 
 # Overzicht van Code for NL *Community Projects*
 
