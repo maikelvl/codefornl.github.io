@@ -1,0 +1,43 @@
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 1 0 auto;
+        width: 30%;
+        margin: 3px;
+        max-width: 314px;
+    
+        img {
+            margin: 2em;
+        }
+    
+        h4 {
+            font-family: $header-font;
+            color: $secondary-inverse;
+            padding-top: 2em;
+            padding-left: 0.2em;
+            padding-right: 0.2em;
+            font-size: 1.3em;
+            margin-bottom: 0;
+        }
+    
+        p {
+            padding-left: 1em;
+            padding-right: 1em;
+            flex-grow: 1;
+        }
+    
+        .button {
+            font-family: $body-font;
+            background: $secondary-inverse;
+            padding: 1em;
+        }
+    }
+}
+
+
+

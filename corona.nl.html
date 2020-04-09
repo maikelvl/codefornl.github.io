@@ -6,7 +6,7 @@ lang: nl
 permalink: /corona
 ---
 
-<header class="block-100-a-60"> 
+<header> 
 <div class="quote-box text-center">
     <div class="quote-box__quote">"<span>Fight for the web</span>"</div>
     <div class="quote-box__author text-center">- <span>Tim Berners Lee</span></div>
@@ -20,7 +20,7 @@ permalink: /corona
     </p>
 </div>
 </header>
-<section  class="block-40-a text-center">
+<section  class="text-center">
   <h1>Corona data</h1>
   <p class="headline">
     Om in tijden van crisis als maatschappij wendbaar te zijn is toegang tot informatie en data essentieel. Code for NL ondersteund alle initatieven om deze data structureel en machine leesbaar publiek toegankelijk te maken. 
@@ -31,12 +31,12 @@ permalink: /corona
     <div class="item">
         <h4>{{item.title}}</h4>
         <p>{{item.tagline}}</p>
-        <a href="{{item.link}}" class="item-button">{{item.link_text}}</a>
+        <a href="{{item.link}}" class="button">{{item.link_text}}</a>
     </div>
     {% endfor %}
 </div>
 </section>
-<section  class="block-40-a text-center section__orange">
+<section  class="text-center section-highlight">
     <h1>Tracers & Trackers</h1>
     <p class="headline">
         Privacy en virus bestrijding gaan hand in hand - het zijn geen tegenstellingen, zoals soms wordt beweerd. Wij zien kansen voor de vele open alternatieven om nu hun waarde voor de democratie en onze gezondheid te bewijzen.
@@ -50,7 +50,7 @@ permalink: /corona
     {% endfor %}
     </div>   
   </section>
-  <section class="block-40-a text-center">
+  <section class="text-center">
     {% include stats.html %}
     {% include slack.html %}
   </section>

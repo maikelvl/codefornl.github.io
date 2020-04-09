@@ -1,4 +1,6 @@
 name: Code For NL
+sass:
+  style: compressed
 defaulttags: 
   - code
   - for

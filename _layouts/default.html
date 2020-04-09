@@ -24,7 +24,8 @@
   {% include swag.html %}
   {% include partners.html %}
   <a name="organisatie"></a>
-  {% include organisation.html %}
+  {% assign people = site.data.mensen | where_exp: "mens", "mens.groups contains 'board'" %}
+  {% include people.html %}
   {% include footer.html %}
 </body>
 </html>

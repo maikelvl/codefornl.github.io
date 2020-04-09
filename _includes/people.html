@@ -1,8 +1,9 @@
-<section  class="block-40-a text-center">
+<section  class="text-center">
   <h1>{{ site.data.blocks.organisation[page.lang]}}</h1>
-  {% for mens in site.data.mensen %}{% if mens.groups contains "board" or mens.groups contains "active" %}
-  <div class="persoon">
-    <img class="pasfoto" src="{{ mens.img }}">
+  <div class="person-list">
+  {% for mens in people %}
+  <div class="person">
+    <img class="picture" src="{{ mens.img }}">
     <p>
       {{ mens.name }}<br>
       {{ mens.function[page.lang] }}<br>
@@ -15,5 +16,6 @@
       {% if mens.website %}<a class="websiteBtn smGlobalBtn" href="{{ mens.website }}"></a>{% endif %}
     </p>
   </div>
-  {% endif %}{% endfor %}
+  {% endfor %}
+</div>
 </section>

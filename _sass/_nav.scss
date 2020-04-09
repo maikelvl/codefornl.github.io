@@ -1,0 +1,54 @@
+nav {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 960px;
+}
+.nav__menu li {
+    display: inline-block;
+}
+
+.nav__logo,
+.nav__menu {
+    display: inline-block;
+    font-family: $header-font;
+    color: $secondary-inverse;
+    font-size: 24px;
+}
+
+.nav__logo {
+    font-size: 32px;
+}
+
+.nav__logo--highlight {
+    background: $highlight-color;
+    color: $text-light;
+    vertical-align: 11px;
+}
+
+.nav__menu {
+    text-transform: uppercase;
+    float: right;
+    padding-top: 10px;
+    line-height: 1.4em;
+    margin-right: 10px;
+}
+
+.nav__menu li {
+    padding: 0 4px;
+}
+
+.nav__menu li:hover {
+    background: $highlight-color;
+    cursor: pointer;
+}
+
+.nav__menu li:hover a {
+    color: $text-light;
+}
+
+@media only screen and (max-width: 420px) {
+    .nav__logo {
+        font-size: 28px;
+        display: block;
+    }
+}

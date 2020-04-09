@@ -1,0 +1,31 @@
+@import "https://fonts.googleapis.com/css?family=Lato";
+
+@import "https://fonts.googleapis.com/css?family=Anton&amp;display=swap";
+
+$body-font: "Lato", "Verdana", "Arial", sans-serif;
+$header-font: "Anton", sans-serif;
+
+/* Coolors Exported Palette - coolors.co/e15532-ec8c39-70c09d-666666-cccccc */
+$color1: #E15532;
+$color2: #EC8C39;
+$color3: #70C09D;
+$color4: #666;
+$color5: #fff;
+
+$primary-color: $color1;
+$primary-inverse: $color5;
+
+$secondary-color: $color3;
+$secondary-inverse: $color4;
+
+$highlight-color: $color2;
+$highlight-inverse: $color5;
+
+$border-color: #ccc;
+$border-radius: 5px;
+
+$text-light: $color5;
+$text-dark: #555;
+
+
+

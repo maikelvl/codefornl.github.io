@@ -41,7 +41,7 @@ width: 960
   <a href="http://clarity.codefor.nl/" class="cta_button">Bekijk Clarity</a>
 </section>
 
-<section class="centered_content">
+<section class="text-center">
 
   <a name="partners"></a>
   <h1>Code for All <b>Affiliate Partners</b></h1>
@@ -77,8 +77,8 @@ width: 960
 <section>
   <h1>Organisatie</h1>
   {% for mens in site.data.mensen %}{% if mens.groups contains "board" or mens.groups contains "active" %}
-  <div class="persoon">
-    <img class="pasfoto" src="{{ mens.img }}">
+  <div class="person">
+    <img class="picture" src="{{ mens.img }}">
     <p>
       {{ mens.name }}<br>
       {{ mens.function }}<br>

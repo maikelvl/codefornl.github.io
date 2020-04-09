@@ -1,0 +1,46 @@
+.person-list {
+    display: flex;
+}
+
+.person {
+    flex: 1;
+    width: 200px;
+    border-bottom: 1px solid $highlight-inverse;
+    padding: 1em;
+
+    .picture {
+        width: 100%;
+        border-radius: 50%;
+    }
+}
+
+.person {
+    display: block;
+    margin: 0 auto;
+}
+
+@media #{$media-s} {
+    .person-list {
+        display: block;
+        .person {
+            .picture {
+                width: 50%;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+@media #{$media-xs} {
+    .person-list {
+        display: block;
+        .person {
+            width: 180px;
+            display: inline-block;
+            .picture {
+                width: 50%;
+                border-radius: 50%;
+            }
+        }
+    }
+}

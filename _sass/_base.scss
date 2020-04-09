@@ -1,0 +1,109 @@
+/* Media queries */
+$media-xl: "only screen and (min-width: 1365px)";
+$media-l: "only screen and (min-width: 1024px) and (max-width: 1365px)";
+$media-m: "only screen and (min-width: 768px) and (max-width: 1023px)";
+$media-s: "only screen and (min-width: 421px) and (max-width: 767px)";
+$media-xs: "only screen and (max-width: 420px)";
+
+/* Reset */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    input, button {
+        flex: 1;
+        margin: 1em;
+    }
+}
+
+@media #{$media-s} {
+    form {
+        flex-direction: column;
+    }
+}
+
+@media #{$media-xs} {
+    form {
+        flex-direction: column;
+    }
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Base */
+h1,h2,h3,h4,h5 {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2.4em;
+    line-height: 1.2em;
+}
+
+h2 {
+    font-size: 1.4em;
+    line-height: 2em;
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+hr {
+    border: 0;
+}
+
+ol, ul {
+    list-style: disc;
+}
+
+main {
+    padding: 2px 0;
+
+    section {
+        margin: 20px;
+        margin-top: 80px;
+    }
+}
+
+section {
+    h2 {
+        text-transform: uppercase;
+    }
+}
+
+p {
+    margin: 1em 0em;
+    line-height: 1.4em;
+    overflow: hidden;
+}
+
+b {
+    font-weight: 900;
+}
+
+img {
+    max-width: 100%;
+}
