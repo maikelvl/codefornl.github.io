@@ -1,0 +1,30 @@
+.stats-list {
+    display: flex;
+    .stat {
+        flex: 1;
+
+        .stat-number {
+            font-family: $header-font;
+            font-size: 5.2em;
+            margin: 0.3em 0;
+        }
+
+        .stat-text {
+            font-size: 1.4em;
+            line-height: 1.4em;
+            color: $text-dark;
+        }
+    }
+}
+
+@media #{$media-s} {
+    .stats-list {
+        display: block;
+    }
+}
+
+@media #{$media-xs} {
+    .stats-list {
+        display: block;
+    }
+}

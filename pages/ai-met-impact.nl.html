@@ -121,32 +121,10 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
         </div>
     </div>
     {% endfor %}
-
-    <p>Voor vragen en meer kun je terecht op de Code for NL Slack:</p>
-
-    <a href="http://praatmee.codefor.nl" class="cta_button">Praat mee op Slack</a>
 </section>
-<section class="block-40-a text-center">
-    <h1>Organisatie</h1>
-    {% assign people = site.data.mensen | sort: 'ai_sort' %}
-    {% for mens in people %}{% if mens.groups contains "ai-met-impact" %}
-    <div class="person">
-        <img class="picture" src="{{ mens.img }}">
-        <p>
-            {{ mens.name }}<br>
-            {% if mens.groups contains "board" %}
-            adviseur<br>
-            {% else %}
-            {{ mens.function }}<br>
-            {% endif %}
-            {% if mens.email %}<a href="mailto:{{ mens.email }}">{{ mens.email }}</a>{% else %}&nbsp;{% endif %}
-        </p>
-        <p class="social">
-            {% if mens.linkedin %}<a class="linkedinBtn smGlobalBtn" href="{{ mens.linkedin }}"></a>{% endif %}
-            {% if mens.twitter %}<a class="twitterBtn smGlobalBtn" href="{{ mens.twitter }}"></a>{% endif %}
-            {% if mens.github %}<a class="githubBtn smGlobalBtn" href="{{ mens.github }}"></a>{% endif %}
-            {% if mens.website %}<a class="websiteBtn smGlobalBtn" href="{{ mens.website }}"></a>{% endif %}
-        </p>
-    </div>
-    {% endif %}{% endfor %}
+<section class="text-center">
+    {% include slack.html %}
 </section>
+
+{% assign people = site.data.mensen | where_exp: "mens", "mens.groups contains 'ai-met-impact'" | sort: 'ai_sort' %}
+{% include people.html %}

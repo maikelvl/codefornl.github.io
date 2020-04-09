@@ -1,0 +1,131 @@
+---
+layout: blog
+lang: en
+tags: [AI, impact]
+tagline: AI met Impact.
+permalink: /en/ai-met-impact/
+title: AI met Impact
+description: "The Municipality of Amsterdam, the Central Bureau of Statistics, the Association of Dutch Municipalities, and
+Code for NL enter into a strategic alliance in the field of transparent and fair algorithms, data science and
+AI."
+image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/computer-vision-1920x802.jpg&width=800
+---
+
+<section>
+    <p class="headline">
+        The Municipality of Amsterdam, the Central Bureau of Statistics, the Association of Dutch Municipalities,
+         and Code for NL enter into a strategic alliance in the field of
+         <em>transparent and fair algorithms, data science and AI</em>.
+    </p>
+    <p class="headline">
+        We do this to develop innovative policy, with the aim of improving it
+        government services throughout the Netherlands.
+    </p>
+    <p class="headline">
+        We are building an active data science and AI community,
+         and standards for both local governments and central government.
+    </p>
+    <p class="headline">
+        This project is made possible by
+        <a href="https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/innovatie/innovatiebudget/">Innovatiebudget
+            BZK</a>.
+    </p>
+    <a href="mailto:aimetimpact@codefor.nl" class="cta_button">Want to learn more?<br>Contact us!</a>
+    <h1>Municipalities wanted!</h1>
+    <p class="headline">
+        We have selected 3 open source solutions that provide the service
+         to improve and accelerate citizens. We want to investigate together how
+         these can be scaled up from Amsterdam to other municipalities.
+         Rotterdam, Utrecht, and others have already signed up for this.
+         Participation is possible on three levels (see below).
+    </p>
+    <p class="headline">
+        We will do all the knowledge, data, and methods that result from these solutions
+        share with other municipalities and governments in the Netherlands for recycling.</p>
+    <p class="headline">
+        Co-financing is available for technical development.
+    </p>
+    <div class="project">
+        <img
+            src="https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/computer-vision-1920x802.jpg&width=800">
+            <h1>Clean city object recognition</h1>
+            <p>
+                Smarter collection of waste by using AI object recognition. Amsterdam focuses on rubbish on the side of the road,
+                Utrecht on CROW measurements, and Rotterdam is looking at additions.
+            </p>
+        <p>Want to join? Send an email to Tamas via <a
+                href="maito:objectherkenning@codefor.nl">objectherkenning@codefor.nl</a>.</p>
+    </div>
+    <div class="project">
+        <img
+            src="https://img.codefor.nl/?url=https://www.cebglobal.com/talentdaily/files/2016/06/data-discrimination-800x533_c.jpg&width=800">
+            <h1> Fair algorithms </h1>
+            <p> How do you ensure algorithms that do not discriminate? And how do you as a municipality put algorithms on one
+                responsible, controlled manner? </p>
+            <p> Want to participate? Send an email to Gerhard via <a
+                href="mailto:eerlijkealgoritmes@codefor.nl">eerlijkealgoritmes@codefor.nl</a>.</p>
+    </div>
+    <div class="project">
+        <img src="https://img.codefor.nl/?url=https://nos.nl/data/image/2016/10/26/328164/2048x1152.jpg&width=800">
+        <h1> Flow through social rent </h1>
+         <p> Promote the flow of social rent based on research into relocation opportunities. </p>
+         <p> Want to participate? Send an email to Tamas via<a href="verhuiskansen@codefor.nl">verhuiskansen@codefor.nl</a>.
+        </p>
+    </div>
+    <h1>Participation is possible on three levels</h1>
+    <h2 style="font-size: 1.8em; margin: 20px 0">#participation for municipalities</h2>
+    <p class="headline">
+        We are looking for municipalities that actively participate in (one of) the three projects.
+         By this we mean that there is at least one data scientist or developer
+         on behalf of the municipality, and that it actively participates on the weekly
+         cooperation day.
+    </p>
+    <a href="mailto:aimetimpact@codefor.nl" class="cta_button">#join?<br>contact us!</a>
+    <h2 style="font-size: 1.8em; margin: 20px 0">#learning for data scientists</h2>
+    <p class="headline">
+        Data scientists and other techies within the government who want to learn
+         of the projects, but are unable or unwilling to participate, are very welcome
+         on the monthly open collaboration day, on which the (technical) demo also takes place.
+    </p>
+    <div class="text-center">
+        <img style="width: 95%; max-width: 400px; margin: 50px 0 0" src="/img/ai-met-impact/meeleren.png" />
+    </div>
+    <a href="#agenda" class="cta_button">#learn more?<br>check the schedule!</a>
+    <h2 style="font-size: 1.8em; margin: 20px 0">#watch for governments</h2>
+    <p class="headline">
+        For administrators, policymakers, and executive officials who want to know more
+         about the possibilities of data science and AI, and how that is already the case
+         And is applied in practice, we provide an overview of
+         show cases at <a href="https://clarity.codefor.nl/cbase/ai-met-impact-90c3b3c1261868e02c4739f745928bd3"> our
+             Clarity page </a>. Every month we organize meetings at which one or two
+         of these examples are explained. There is also much room for dialogue
+         about the ethical considerations and experiences.
+    </p>
+    <a href="#agenda" class="cta_button">#watch?<br>Check the schedule!</a>
+</section>
+
+<a name="agenda"></a>
+<section>
+    <h1>Schedule</h1>
+
+    {% for item in site.data.ai-met-impact-calendar %}
+    <div class="card {{item.cat}}" style="display: flex;">
+        <div class="card-label">{{item.cat}}</div>
+        <div style="margin-top: 10px">
+            <span class="card-title">{{item.date}}: #{{item.cat}} {{item.title}}</span>
+            {% if item.description %}
+            <p>{{ item.description }}</p>
+            {% endif %}
+            {% if item.signup-link %}
+            <p>Register at <a href="{{item.signup-link}}">{{item.signup-link}}</a></p>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</section>
+<section class="text-center">
+    {% include slack.html %}
+</section>
+
+{% assign people = site.data.mensen | where_exp: "mens", "mens.groups contains 'ai-met-impact'" | sort: 'ai_sort' %}
+{% include people.html %}

@@ -1,0 +1,15 @@
+.founder-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .founder {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 1 0 auto;
+        width: 30%;
+        margin: 3px;
+        max-width: 314px;
+    }
+}
+

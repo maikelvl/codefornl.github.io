@@ -10,6 +10,27 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    input, button {
+        flex: 1;
+        margin: 1em;
+    }
+}
+
+@media #{$media-s} {
+    form {
+        flex-direction: column;
+    }
+}
+
+@media #{$media-xs} {
+    form {
+        flex-direction: column;
+    }
+}
 
 ol, ul {
     list-style: none;
@@ -31,16 +52,13 @@ table {
 }
 
 /* Base */
-body {
-    margin: 0;
-    padding: 0;
+h1,h2,h3,h4,h5 {
+    margin-top: 0;
 }
 
 h1 {
     font-size: 2.4em;
     line-height: 1.2em;
-    margin-bottom: 1em;
-    margin-top: 1em;
 }
 
 h2 {
