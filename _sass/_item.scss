@@ -1,7 +1,7 @@
 .item-list {
     display: flex;
     flex-wrap: wrap;
-
+    flex-direction: row;
     .item {
         display: flex;
         flex-direction: column;
@@ -35,6 +35,23 @@
             font-family: $body-font;
             background: $secondary-inverse;
             padding: 1em;
+        }
+    }
+}
+
+@media #{$media-s} {
+    .item-list .item img {
+        margin: 1em;
+    }
+}
+@media #{$media-xs} {
+    .item-list {
+        flex-direction: column;
+        .item {
+            width: 100%;
+            img {
+                margin: 1em;
+            }
         }
     }
 }
