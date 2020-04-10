@@ -49,6 +49,7 @@ nav {
         flex-grow: 1;
         flex-direction: row-reverse;
         padding-top: 8px;
+        cursor: pointer;
         span {
             margin: 0 10px !important;
         }
@@ -132,6 +133,10 @@ nav {
     .nav__menu {
         font-size: 20px;
         display:none;
+        li {
+            width: 100%;
+            padding: 0 0.2em;
+        }
     }
     .nav__logo {
         img {
@@ -164,6 +169,10 @@ nav {
         font-size: 18px;
         margin: 0;
         display: none;
+        li {
+            width: 100%;
+            padding: 0 0.2em;
+        }
     }
     .nav__logo {
         img {

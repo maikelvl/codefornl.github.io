@@ -36,7 +36,17 @@
         <a class="githubBtn smGlobalBtn" href="https://github.com/codefornl" title="Code for NL Github"></a>
       </p>-->
 </footer>
+<script>
+  $('.nav__hamburger').on('click', function(e){
+    $('.nav__menu').toggle();
+    $('.nav_menu > a').on('click', function(e){
+      if(!$('.nav__hamburger').is(":hidden")){
+        $('.nav__menu').toggle();
+      }
+    })
+  })
 
+</script>
 <!-- Matomo -->
 <script type="text/javascript">
   var _paq = window._paq || [];
