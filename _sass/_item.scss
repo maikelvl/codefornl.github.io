@@ -2,18 +2,16 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    padding: 1em;
+    justify-content: space-between;
     .item {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         flex: 1 0 auto;
-        width: 30%;
-        margin: 3px;
-        max-width: 314px;
-    
-        img {
-            margin: 2em;
-        }
+        width: 28%;
+        margin: 1em;
+        border: 1px solid $border-color;
     
         h4 {
             font-family: $header-font;
@@ -40,8 +38,16 @@
 }
 
 @media #{$media-s} {
-    .item-list .item img {
-        margin: 1em;
+    .item-list {
+        flex-direction: column;
+        .item {
+            max-width: none;
+            width: 100%;
+            margin: 0 auto 1em auto;
+            img {
+                margin: 2em;
+            }
+        }
     }
 }
 @media #{$media-xs} {
@@ -49,6 +55,7 @@
         flex-direction: column;
         .item {
             width: 100%;
+            max-width: none;
             img {
                 margin: 1em;
             }
@@ -56,5 +63,6 @@
     }
 }
 
-
-
+.no-border {
+    border: none !important;
+}
