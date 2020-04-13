@@ -1,6 +1,6 @@
 <nav class="nav__site">
   <div class="nav__logo">
-    <img src="/img/Logo-slash-01.png">
+    <img src="{{ site.url }}/img/Logo-slash-01.png">
     <div>
       <span class="nav__logo--highlight">CODE for NL</span>
       <p>{{ site.data.blocks.site[page.lang].tagline}}</p>
@@ -8,18 +8,18 @@
     <div class="nav__hamburger">
       <span class="hamburger"></span>
     </div>
-    
+
   </div>
   <ul class="nav__menu">
     {% if page.lang == "nl" %}
-    <li><a href="/communityprojects/">community</a></li>
-    <li><a href="/#meetups">meetups</a></li>
-    <li><a href="/#training">training</a></li>
-    <li><a href="/#programs">{{ site.data.blocks.site[page.lang].programs}}</a></li>
+    <li><a href="{{ site.url }}/communityprojects/">community</a></li>
+    <li><a href="{{ site.url }}/#meetups">meetups</a></li>
+    <li><a href="{{ site.url }}/#training">training</a></li>
+    <li><a href="{{ site.url }}/#programs">{{ site.data.blocks.site[page.lang].programs}}</a></li>
     {% else %}
-    <li><a href="/{{page.lang}}/#meetups">meetups</a></li>
-    <li><a href="/{{page.lang}}/#training">training</a></li>
-    <li><a href="/{{page.lang}}/#programs">{{ site.data.blocks.site[page.lang].programs}}</a></li>
+    <li><a href="{{ site.url }}/{{page.lang}}/#meetups">meetups</a></li>
+    <li><a href="{{ site.url }}/{{page.lang}}/#training">training</a></li>
+    <li><a href="{{ site.url }}/{{page.lang}}/#programs">{{ site.data.blocks.site[page.lang].programs}}</a></li>
     {% endif %}
   </ul>
 </nav>
