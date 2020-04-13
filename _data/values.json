@@ -1,0 +1,51 @@
+{
+    "nl": [
+        {
+            "sequence": 1,
+            "tagline": "Wij bewijzen wat mogelijk is",
+            "img": "show_whats_possible.svg"
+        },
+        {
+            "sequence": 2,
+            "tagline": "Wij maken voor en met de samenleving",
+            "img": "with_society.svg"
+        },
+        {
+            "sequence": 3,
+            "tagline": "Wij maken de overheid en de samenleving beter (niet de politiek)",
+            "img": "better_society.svg"
+        },
+        {
+            "sequence": 4,
+            "tagline": "Wij werken zichtbaar transparant",
+            "img": "ecosystem.svg"
+        },
+        {
+            "sequence": 5,
+            "tagline": "Wij helpen met het maken van een ecosysteem",
+            "img": "open_source.svg"
+        }
+    ],
+    "en": [
+        {
+            "sequence": 1,
+            "tagline": "We show what's possible"
+        },
+        {
+            "sequence": 2,
+            "tagline": "We build for and with citizens"
+        },
+        {
+            "sequence": 3,
+            "tagline": "We imporve government and civil society (not politics)"
+        },
+        {
+            "sequence": 4,
+            "tagline": "We operate in public"
+        },
+        {
+            "sequence": 5,
+            "tagline": "We help build an ecosystem"
+        }
+    ]
+}

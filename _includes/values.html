@@ -1,0 +1,8 @@
+<section class="values-list">
+    {% for entry in site.data.values[page.lang] %}
+    <div class="value">
+        <img src="img/values/{{entry.img}}" style="max-width: 250px;">
+        <h4>{{entry.tagline}}</h4>
+    </div>
+    {% endfor %}
+  </section>
