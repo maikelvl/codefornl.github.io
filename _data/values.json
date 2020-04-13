@@ -29,23 +29,28 @@
     "en": [
         {
             "sequence": 1,
-            "tagline": "We show what's possible"
+            "tagline": "We show what's possible",
+            "img": "show_whats_possible.svg"
         },
         {
             "sequence": 2,
-            "tagline": "We build for and with citizens"
+            "tagline": "We build for and with citizens",
+            "img": "with_society.svg"
         },
         {
             "sequence": 3,
-            "tagline": "We imporve government and civil society (not politics)"
+            "tagline": "We improve government and civil society (not politics)",
+            "img": "better_society.svg"
         },
         {
             "sequence": 4,
-            "tagline": "We operate in public"
+            "tagline": "We operate in public",
+            "img": "ecosystem.svg"
         },
         {
             "sequence": 5,
-            "tagline": "We help build an ecosystem"
+            "tagline": "We help build an ecosystem",
+            "img": "open_source.svg"
         }
     ]
 }
