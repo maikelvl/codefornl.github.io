@@ -66,32 +66,6 @@
         <span class="word color4">NON</span>
       </div>
     </div>
-    <script>
-      $(".tfnt-img").hide();
-      $(".tfnt").show();
-
-      var $lines = $(".tfnt-line-wrap");
-      var d = '';
-
-      $lines.each(function (i, $line) {
-        var D;
-        if (d == '') d = '-';
-        else d = '';
-        D = d;
-        var t = 0;
-        setInterval(function () {
-          t += 20 + Math.floor(60 * Math.random());
-          if (t > 200) {
-            t = 0;
-          }
-          $(".word", $line).css({
-            transitionDuration: '1s',
-            transitionTimingFunction: 'linear',
-            transform: 'translate(' + D + t + 'px, 0)'
-          });
-        }, 1000);
-      });
-    </script>
   </div>
 </section>
 

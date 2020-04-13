@@ -1,0 +1,95 @@
+<script src="https://use.fontawesome.com/164ce3f549.js"></script>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script>
+    /**
+     * Actions, disabled for now
+     */
+
+    // var actions = [
+    //   ["Fight for the web", "Tim Berners Lee"],
+    //   ["Het internet is stuk, maar nog niet verloren.", "Marleen Stikker"],
+    //   ["We're not going to fix government until we fix citizenship.", "Jennifer Pahlka"],
+    //   ["Are we just going to be a crowd of voices, or are we going to be a crowd of hands?", "Jennifer Pahlka"],
+    //   ["When one neighbor helps another, we strengthen our communities.", "Jennifer Pahlka"],
+    //   ["We have to make bureaucracy sexy.", "Jennifer Pahlka"]
+    // ];
+    // var action = actions[Math.floor(Math.random() * actions.length)];
+    // $(".action-box__action span").html(action[0]);
+    // $(".action-box__author span").html(action[1]);
+
+
+    /**
+     * tech for non tech
+     */
+    $(".tfnt-img").hide();
+    $(".tfnt").show();
+
+    var $lines = $(".tfnt-line-wrap");
+    var d = '';
+
+    $lines.each(function (i, $line) {
+        var D;
+        if (d == '') d = '-';
+        else d = '';
+        D = d;
+        var t = 0;
+        setInterval(function () {
+            t += 20 + Math.floor(60 * Math.random());
+            if (t > 200) {
+                t = 0;
+            }
+            $(".word", $line).css({
+                transitionDuration: '1s',
+                transitionTimingFunction: 'linear',
+                transform: 'translate(' + D + t + 'px, 0)'
+            });
+        }, 1000);
+    });
+    /**
+     * Dynamic quotes
+     */
+    var quotes = [
+        ["Fight for the web", "Tim Berners Lee"],
+        ["Het internet is stuk, maar nog niet verloren.", "Marleen Stikker"],
+        ["We're not going to fix government until we fix citizenship.", "Jennifer Pahlka"],
+        ["Are we just going to be a crowd of voices, or are we going to be a crowd of hands?", "Jennifer Pahlka"],
+        ["When one neighbor helps another, we strengthen our communities.", "Jennifer Pahlka"],
+        ["We have to make bureaucracy sexy.", "Jennifer Pahlka"]
+    ];
+    var quote = quotes[Math.floor(Math.random() * quotes.length)];
+    $(".quote-box__quote span").html(quote[0]);
+    $(".quote-box__author span").html(quote[1]);
+
+    /**
+     * Burger menu interaction
+     */
+    $('.nav__hamburger').on('click', function (e) {
+        $('.nav__menu').toggle();
+        $('.nav_menu > li').on('click', function (e) {
+            if (!$('.nav__hamburger').is(":hidden")) {
+                $('.nav__menu').toggle();
+            }
+        })
+    })
+
+    // Matomo
+    var _paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+        var u = "//click.codefor.nl/";
+        _paq.push(['setTrackerUrl', u + 'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+    })();
+</script>
+
+<noscript>
+    <!-- Matomo Image Tracker-->
+    <img src="https://click.codefor.nl/matomo.php?idsite=1&amp;rec=1" style="border:0" alt="" />
+    <!-- End Matomo -->
+</noscript>
