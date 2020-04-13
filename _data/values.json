@@ -2,27 +2,27 @@
     "nl": [
         {
             "sequence": 1,
-            "tagline": "Wij bewijzen wat mogelijk is",
+            "tagline": "we laten zien wat mogelijk is",
             "img": "show_whats_possible.svg"
         },
         {
             "sequence": 2,
-            "tagline": "Wij maken voor en met de samenleving",
+            "tagline": "we werken voor en met mensen",
             "img": "with_society.svg"
         },
         {
             "sequence": 3,
-            "tagline": "Wij maken de overheid en de samenleving beter (niet de politiek)",
+            "tagline": "we verbeteren overheid en samenleving (niet politiek)",
             "img": "better_society.svg"
         },
         {
             "sequence": 4,
-            "tagline": "Wij werken zichtbaar transparant",
+            "tagline": "we werken open en transparant",
             "img": "ecosystem.svg"
         },
         {
             "sequence": 5,
-            "tagline": "Wij helpen met het maken van een ecosysteem",
+            "tagline": "we bouwen een ecosysteem",
             "img": "open_source.svg"
         }
     ],
