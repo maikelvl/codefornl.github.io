@@ -3,52 +3,52 @@
         "nl":[
             {
                 "title": "API's van developer.overheid.nl",
-                "link": "data.overheid.nl",
+                "link": "https://data.overheid.nl",
                 "tagline": "Overzicht van alle API's momenteel beschikbaar vanuit Nederlandse overheden.",
                 "link_text": "Bekijk deze data"
             },
             {
                 "title": "RIVM data Code For NL",
-                "link": "data.overheid.nl",
+                "link": "https://github.com/codefornl/corona-data",
                 "tagline": "API ontsluiting van de RIVM besmettingsdata.",
                 "link_text": "Bekijk deze data"
             },
             {
                 "title": "Corona Pioniers VPRO",
-                "link": "data.overheid.nl",
+                "link": "https://coronapioniers.vpro.nl/views/data",
                 "tagline": "Data en API voor maatschappelijke corona initiatieven.",
                 "link_text": "Bekijk deze data"
             },
             {
-                "title": "Open Stad API",
-                "link": "data.overheid.nl",
-                "tagline": "Ontsluiting data en source open stad gemeente Amsterdam",
+                "title": "Meer data op Slack",
+                "link": "https://praatmee.codefor.nl",
+                "tagline": "Vind meer relevante databronnen op ons Slack kanaal #corona-data",
                 "link_text": "Bekijk deze data"
             }
         ],
         "en":[
             {
                 "title": "API's of developer.overheid.nl",
-                "link": "data.overheid.nl",
+                "link": "https://data.overheid.nl",
                 "tagline": "Overview of all APIs currently available from Dutch governments.",
                 "link_text": "View this data"
             },
             {
                 "title": "RIVM data Code For NL",
-                "link": "data.overheid.nl",
+                "link": "https://github.com/codefornl/corona-data",
                 "tagline": "API disclosure of the RIVM contamination data.",
                 "link_text": "View this data"
             },
             {
                 "title": "Corona Pioniers VPRO",
-                "link": "data.overheid.nl",
+                "link": "https://coronapioniers.vpro.nl/views/data",
                 "tagline": "Data and API for social corona initiatives.",
                 "link_text": "View this data"
             },
             {
-                "title": "Open City API",
-                "link": "data.overheid.nl",
-                "tagline": "Disclosure of data and source of open city of Amsterdam",
+                "title": "More data on Slack",
+                "link": "https://praatmee.codefor.nl",
+                "tagline": "Find more relevant data sources on our Slack channel #corona-data",
                 "link_text": "View this data"
             }
         ]
@@ -66,6 +66,10 @@
             {
                 "img": "/img/trackers/img_track_privatetracer.png",
                 "link": "https://www.privatetracer.org/"
+            },
+            {
+                "img": "/img/trackers/img_track_decode.png",
+                "link": "https://www.decode-project.eu/"
             }
         ]
     }

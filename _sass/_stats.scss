@@ -1,18 +1,23 @@
 .stats-list {
     display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+
     .stat {
         flex: 1;
 
+        
+
         .stat-number {
             font-family: $header-font;
-            font-size: 5.2em;
+            font-size: 7.2em;
             margin: 0.3em 0;
         }
 
         .stat-text {
-            font-size: 1.4em;
+            font-size: 1.6em;
             line-height: 1.4em;
-            color: $text-dark;
+            color: $color4;
         }
     }
 }

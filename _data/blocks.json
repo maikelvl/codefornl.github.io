@@ -31,12 +31,13 @@
     },
     "corona": {
         "nl": {
-            "title": "Civic Tech tegen Corona. Doe mee!",
+            "title": " Public Tech tegen Corona. </br > &nbsp;&nbsp; Doe mee! ",
+            "auteur": "- Milo van der Linden, voorzitter Code for NL",
             "link": "/corona",
             "link_title": "Lees meer"
         },
         "en": {
-            "title": "Civic Tech against Corona. Join us!",
+            "title": " Public Tech against Corona. </br > &nbsp;&nbsp; Join us! ",
             "link": "/en/corona",
             "link_title": "Read more"
         }

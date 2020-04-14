@@ -7,21 +7,22 @@ permalink: /corona
 ---
 
 <header> 
-<div class="quote-box text-center">
-    <div class="quote-box__quote">"<span>Fight for the web</span>"</div>
-    <div class="quote-box__author text-center">- <span>Tim Berners Lee</span></div>
-    <p>
+<div class="action-box__corona">
+    <div class="action-box__action">"<span> Fight for the web </span>"</div>
+    <div class="action-box__author">- <span>Tim Berners Lee</span></div>
+    <div class="action-box__text"><p>
         De impact van het corona virus op de Nederlandse samenleving is ongekend groot. De maatregelen die nu worden genomen zullen jarenlange, diepgaande gevolgen hebben. Niet alleen voor onze gezondheidzorg en economie, maar ook voor onze democratie en grondrechten.
     </p><p>
         Code for NL maakt zich hard voor een publieke digitale infrastructuur die het snel en eenvoudig delen van essentiele data in het publieke domein mogelijk maakt. Die mensen en initiatieven rond gelijke spelregels en publieke code aan elkaar verbindt En die onze grondrechten als privacy optimaal beschermd.
     </p>
     <p>
         Onze samenleving en democratie hebben transparante en solidaire publieke infrastruur nodig. Een sterk public tech netwerk brengt overheid en samenleving samen. Om ideeen en oplossingen in een open gesprek met elkaar te delen en van elkaar te leren.
-    </p>
+    </p></div>
 </div>
 </header>
 <section  class="text-center">
-  <h1>Corona data</h1>
+  <h1>CORONA DATA</h1>
+  <div class="text-center-center">
   <p class="headline">
     Om in tijden van crisis als maatschappij wendbaar te zijn is toegang tot informatie en data essentieel. Code for NL ondersteund alle initatieven om deze data structureel en machine leesbaar publiek toegankelijk te maken. 
   </p>
@@ -31,24 +32,26 @@ permalink: /corona
     <div class="item">
         <h4>{{item.title}}</h4>
         <p>{{item.tagline}}</p>
-        <a href="{{item.link}}" class="button">{{item.link_text}}</a>
+        <a target="new" href="{{item.link}}" class="button">{{item.link_text}}</a>
     </div>
     {% endfor %}
 </div>
+</div>
 </section>
 <section  class="text-center section-highlight">
-    <h1>Tracers & Trackers</h1>
+    <h1>TRACKERS & TRACERS</h1>
+    <div class="text-center-center">
     <p class="headline">
-        Privacy en virus bestrijding gaan hand in hand - het zijn geen tegenstellingen, zoals soms wordt beweerd. Wij zien kansen voor de vele open alternatieven om nu hun waarde voor de democratie en onze gezondheid te bewijzen.
+        Privacy en virus bestrijding gaan hand in hand - het zijn geen tegenstellingen, zoals soms wordt beweerd. Wij zien kansen voor de vele open alternatieven om nu hun waarde voor de democratie en onze gezondheid te bewijzen.<br /><br />
     </p>
     <div class="item-list">
 
     {% for item in site.data.corona.trackers[page.lang] %}
-    <div class="item no-border">
-        <a href="{{item.link}}"><img src="{{item.img}}"></a>
+    <div class="item-tracer">
+        <a target="new" href="{{item.link}}"><img src="{{item.img}}"></a>
     </div>
     {% endfor %}
-    </div>   
+    </div>   </div>
   </section>
   <section class="text-center">
     {% include stats.html %}

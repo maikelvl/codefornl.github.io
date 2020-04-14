@@ -1,13 +1,14 @@
 <footer>
-  <div class="founder-list">
+  <div class="founder">
 
     {% for item in site.data.founders[page.lang] %}
     <div class="founder">
         <p>{{item.title}}</p>
         <a href="{{item.link}}"><img src="{{item.img}}"></a>
+        {% endfor %}
+
     </div>
-    {% endfor %}
-    </div>   
+    <div class="founder-details">
       <p>
         <a href="https://www.codefor.nl">{{site.data.blocks.website[page.lang]}}</a><br>
         <a href="https://collecties.codefor.nl">{{site.data.blocks.collections[page.lang]}}</a><br>
@@ -35,5 +36,9 @@
         <a class="twitterBtn smGlobalBtn" href="https://twitter.com/codefornl" title="Code for NL op Twitter"></a>
         <a class="githubBtn smGlobalBtn" href="https://github.com/codefornl" title="Code for NL Github"></a>
       </p>-->
+
+    </div>
+    
+    </div>  
 </footer>
 {% include script.html %}

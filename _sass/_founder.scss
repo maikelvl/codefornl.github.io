@@ -1,15 +1,18 @@
-.founder-list {
+.founder {
     display: flex;
-    flex-wrap: wrap;
-
-    .founder {
+    width: 100%;
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        flex: 1 0 auto;
         width: 30%;
         margin: 3px;
         max-width: 314px;
     }
-}
+    .founder-details {
+        display: flex;
+
+        width: 30%;
+        margin: 3px;
+        max-width: 314px;
+        padding-left: 500px;
+    }
+
 

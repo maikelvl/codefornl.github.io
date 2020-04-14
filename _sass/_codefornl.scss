@@ -12,7 +12,7 @@ html,
 body {
     margin: 0 auto;
     padding: 0;
-    max-width: 960px;
+    max-width: 100%;
     font-family: $body-font;
     font-size: 100%;
     color: $text-dark;
@@ -42,7 +42,7 @@ footer {
     padding: 3em;
     margin: 0 auto;
     color: $text-light;
-    max-width: 960px;
+    max-width: 100%;
 }
 
 .green-text {
@@ -372,6 +372,13 @@ h3 {
 
 .text-center {
     text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.text-center-center {
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .section-highlight {
@@ -420,21 +427,41 @@ button {
     height: 180px;
 }
 
-.heroins__item {
-    display: inline-block;
-    text-align: center;
+.heroins {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.heroins__item h2 {
+.heroins__item {
+    display: inline;
+    text-align: center;
+    width: 33%;
+}
+
+.heroins__hover {
+    background: url(../img/heroins/jp.png) no-repeat center;
+    height: 420px;
+
+}
+
+.heroins__hover:hover {
+    background: url(../img/heroins/jp-quote.png) $color2 no-repeat center;
+}
+
+.heroins__txt {
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.heroins__txt h2 {
     margin-top: 24px;
     font-family: $header-font;
-    color: $text-dark;
-    font-size: 1.4em;
+    color: $color4;
+    font-size: 32px;
     text-transform: uppercase;
-}
-
-.heroins__item div {
-    height: 180px;
+    line-height: 36px;
 }
 
 .quote-box {
@@ -459,8 +486,8 @@ button {
 }
 
 .quote-box__author {
-    font-size: 24px;
-    text-align: right;
+    font-size: 32px;
+    text-align: left;
     padding: 20px 100px 64px;
 }
 
@@ -523,7 +550,7 @@ button {
 
 .tfnt-line {
     font-family: $header-font;
-    font-size: 80px;
+    font-size: 120px;
     line-height: 1.1em;
     overflow: hidden;
 }
@@ -533,10 +560,19 @@ button {
     white-space: nowrap;
 }
 
+.tfnt-line-wrap:hover {
+    background: $secondary-inverse; /* grey */
+    content: url(../img/arrow.png) repeat;
+}
+
 .word {
     flex-grow: 1;
-    padding: 2px 10px;
+    padding: 3px 10px;
     margin: 0;
+}
+
+.word:hover {
+    background: $secondary-inverse; /* grey */
 }
 
 .color1 {
@@ -544,9 +580,20 @@ button {
     color: $primary-color; /* orange */
 }
 
+.color1:hover {
+    color: $secondary-inverse; /* grey */
+    content: url(../img/arrow.png);
+}
+
 .color2 {
     background: $primary-color; /* red */
     color: $secondary-color; /* green */
+}
+
+.color2:hover {
+    color: $secondary-inverse; /* grey */
+    content: url(../img/arrow.png);
+
 }
 
 .color3 {
@@ -554,17 +601,76 @@ button {
     color: $primary-color; /* red */
 }
 
+.color3:hover {
+    color: $secondary-inverse; /* grey */
+    content: url(../img/arrow.png);
+
+}
+
 .color4 {
     background: $secondary-color; /* green */
     color: $secondary-inverse; /* grey */
 }
 
-.top-60 {
-    margin-top: 60px;
+.color4:hover {
+    color: $secondary-inverse; /* grey */
+    content: url(../img/arrow.png);
+
 }
 
-.heroins {
-    display: flex;
+.top-60 {
+    margin-top: 80px;
+
+}
+
+.top-60 h2 {
+    font-size: 3.5em;
+    color: $color4;
+    line-height: 1.3em;
+}
+
+.top-60 form {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.top-60 input {
+    border-color: $color4;
+    width: 40%;
+    margin-right: 20px;
+    font-size: 1em;
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    padding-left: 0.7em;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+.top-60 button {
+    width: 20%;
+    cursor: pointer;
+    margin-left: 20px;
+    font-family: $header-font;
+    font-size: 2em;
+    display: inline-block;
+    position: relative;
+    border: 0;
+    width: 20px;
+    height: 60px;
+    padding: 0.3em;
+    text-decoration: none;
+    text-align: center;
+    color: $color3;
+    font-weight: normal;
+    line-height: 30px;
+    vertical-align: center;
+}
+
+.top-60:hover button {
+    color: white;
+    background: $color4;
 }
 
 .post__container {
@@ -692,4 +798,23 @@ blockquote p {
         max-width: 100px;
         max-height: 100px;
     }
+}
+.meetup-box {
+    background: $color4;
+    font-family: $header-font;
+    color: $highlight-inverse;
+}
+
+.meetup-box__img {
+    width: 100%;
+    height: 640px;
+    background-image: url(../img/meetups.png);
+    background-position: center;
+}
+
+.meetup-box__img:hover {
+    width: 100%;
+    background-color: $color3;
+    background-image: url(../img/meetup.png);
+    
 }

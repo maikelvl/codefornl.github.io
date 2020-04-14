@@ -1,29 +1,48 @@
 .action-box {
-    background: $highlight-color;
-    margin: 80px auto 60px;
-
-    .action-box__action,
-    .action-box__author {
-        font-family: $header-font;
-        color: $highlight-inverse;
-    }
-
-    .action-box__action {
-        line-height: 1.4em;
-        padding: 64px 100px 40px;
-    }
-
-    .action-box__author {
-        font-size: 24px;
-        text-align: right;
-        padding: 20px 100px 64px;
-    }
-
-    .action-link {
-        color: $text-light;
-        text-decoration: "underline";
-    }
+    background: $color3;
+    margin: 60px auto 60px;
+    height: 550px;
+    font-family: $header-font;
+    color: $highlight-inverse;
 }
+
+.action-box__corona {
+    background: $color4;
+    margin: 60px auto 60px;
+    height: 850px;
+    font-family: $header-font;
+    color: $highlight-inverse;
+}
+
+.action-box__action {
+    line-height: 1.4em;
+    padding: 100px 155px 40px;
+}
+
+.action-box__author {
+    font-size: 24px;
+    padding: 0px 198px 40px;
+
+}
+
+.action-box__text {
+    font-size: 24px;
+    padding: 0px 198px 40px;
+
+}
+
+
+.action-box__link {
+    font-size: 32px;
+    padding: 20px 100px 64px;
+    color: $text-light;
+    text-align: right;
+}
+
+.action-box__link a:hover{
+    color: $color4;
+}
+
 
 @media #{$media-xl} {
     .action-box__action {
@@ -34,25 +53,31 @@
 @media #{$media-l} {
     .action-box__action {
         font-size: 64px;
+        line-height: 1.4em;
+        padding: 80px 160px 40px;
     }
 }
 
 @media #{$media-m} {
     .action-box__action {
         font-size: 64px;
+        line-height: 1.4em;
+        padding: 60px 120px 30px;
     }
 }
 
 @media #{$media-s} {
     .action-box__action {
         font-size: 48px;
+        line-height: 1.4em;
+        padding: 40px 80px 20px;
     }
 }
 
 @media #{$media-xs} {
     .action-box__action {
         line-height: 1.4em;
-        padding: 28px 60px 40px;
+        padding: 28px 60px 10px;
         font-size: 28px;
     }
 }
