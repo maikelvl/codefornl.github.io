@@ -14,12 +14,26 @@ form {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    input, button {
+
+    input {
+        font-size: 1em;
+        padding: 1em;
+        text-decoration: none;
         flex: 1;
-        margin: 0.1em;
+        margin: 1em;
+    }
+    button {
+        margin: 16px;
+        border-radius: 5px;
+        font-size: 2em;
+        flex: 1;
     }
 }
-
+@media #{$media-m} {
+    form {
+        flex-direction: column;
+    }
+}
 @media #{$media-s} {
     form {
         flex-direction: column;

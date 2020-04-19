@@ -390,14 +390,17 @@ h3 {
     }
 }
 
-input, button {
-    border: 0.1em solid $border-color;
-    padding: 1.2em;
+button {
+    font-family: $header-font;
+    background: $primary-color;
+    color: $secondary-color;
+    border: 1px solid $primary-color;
 }
 
-button {
-    background: $primary-color;
-    color: $text-light;
+button:hover {
+    color: $highlight-inverse;
+    background: $highlight-color;
+    border: 1px solid $highlight-color;
 }
 
 .post__item {
@@ -621,56 +624,6 @@ button {
 .top-60 {
     margin-top: 80px;
 
-}
-
-.top-60 h2 {
-    font-size: 3.5em;
-    color: $color4;
-    line-height: 1.3em;
-}
-
-.top-60 form {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.top-60 input {
-    border-color: $color4;
-    width: 40%;
-    margin-right: 20px;
-    font-size: 1em;
-    display: inline-block;
-    position: relative;
-    width: 20px;
-    height: 20px;
-    padding-left: 0.7em;
-    text-decoration: none;
-    vertical-align: center;
-}
-
-.top-60 button {
-    width: 20%;
-    cursor: pointer;
-    margin-left: 20px;
-    font-family: $header-font;
-    font-size: 2em;
-    display: inline-block;
-    position: relative;
-    border: 0;
-    width: 20px;
-    height: 60px;
-    padding: 0.3em;
-    text-decoration: none;
-    text-align: center;
-    color: $color3;
-    font-weight: normal;
-    line-height: 30px;
-    vertical-align: center;
-}
-
-.top-60:hover button {
-    color: white;
-    background: $color4;
 }
 
 .post__container {
