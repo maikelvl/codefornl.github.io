@@ -4,7 +4,7 @@
     nl: voorzitter
     en: chair
   email: milo@codefor.nl
-  img: /img/milo.jpg
+  img: /img/bestuur/milo.png
   twitter: https://twitter.com/miblon
   github: https://github.com/milovanderlinden
   groups: [board]
@@ -15,7 +15,7 @@
     nl: penningmeester
     en: treasurer
   email: ivonne@codefor.nl
-  img: /img/ivonne.jpg
+  img: /img/bestuur/ivonne.png
   linkedin: https://www.linkedin.com/in/ivonnejansendings/
   twitter: https://twitter.com/ivonnedings
   groups: [board,ai-met-impact]
@@ -27,7 +27,7 @@
     nl: secretaris
     en: secretary
   email: johan@codefor.nl
-  img: /img/johan.jpg
+  img: /img/bestuur/johan.png
   linkedin: https://www.linkedin.com/in/jgroenen/
   twitter: https://twitter.com/jpagroenen
   github: https://github.com/jgroenen
@@ -42,7 +42,7 @@
     nl: bestuurslid
     en: board member
   email: edo@codefor.nl
-  img: /img/edo.jpg
+  img: /img/bestuur/edo.png
   linkedin: https://www.linkedin.com/in/edoplantinga/
   twitter: https://twitter.com/edoplantinga
   groups: [board,ibestuur,nl-design-system]
@@ -54,7 +54,7 @@
     nl: bestuurslid
     en: board member
   email: sander@codefor.nl
-  img: /img/sander.jpg
+  img: /img/bestuur/sander.png
   linkedin: https://www.linkedin.com/in/sandervanderwaal/
   twitter: https://twitter.com/sandervdwaal
   groups: [board]

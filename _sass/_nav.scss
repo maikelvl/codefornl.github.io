@@ -1,7 +1,7 @@
 nav {
     margin: 0 auto;
-    padding: 1em 0;
-    max-width: 960px;
+    padding-top: 5em;
+    max-width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,15 +16,24 @@ nav {
     display: inline-block;
     font-family: $header-font;
     color: $secondary-inverse;
-    font-size: 24px;
+    font-size: 32px;
 }
+
+.nav__menu a {
+    color: $secondary-inverse;
+}
+
+.nav__menu a:hover {
+    color: $color1;
+}
+
 
 .nav__logo {
     display: flex;
     flex-direction: row;
 
     img {
-        height: 48px;
+        height: 120px;
         margin: 4px 8px 0 0;
     }
 
@@ -86,28 +95,21 @@ nav {
 .nav__menu {
     text-transform: uppercase;
     padding-top: 0;
-    margin: 12px 0 0 0;
+    margin: 64px 0 0 0;
 }
 
 .nav__menu li {
     padding: 0 4px;
 }
 
-.nav__menu li:hover {
-    background: $highlight-color;
-    cursor: pointer;
-}
 
-.nav__menu li:hover a {
-    color: $text-light;
-}
 @media #{$media-m} {
     .nav__menu {
         margin: 0;
     }
     .nav__logo {
         img {
-            height: 32px;
+            height: 64px;
             margin: 4px 8px 0 0;
         }
 
@@ -140,7 +142,7 @@ nav {
     }
     .nav__logo {
         img {
-            height: 32px;
+            height: 64px;
             margin: 4px 8px 0 0;
         }
 
@@ -176,7 +178,7 @@ nav {
     }
     .nav__logo {
         img {
-            height: 32px;
+            height: 64px;
             margin: 4px 8px 0 0;
         }
 

@@ -6,25 +6,15 @@
 <body>
   {% include nav.html %}
   {% include action.html %}
-  {% include values.html %}
-  <a name="community"></a>
-  {% include community.html %}
-  <a name="training"></a>
   {% include heroins.html %}
-  {% include header.html %}
-  <a name="programs"></a>
-  {% include programs.html %}
-  <a name="tfnt"></a>
+  <a id="testjeleeg"></a>
+  <a id="tfnt"></a>
   {% include tfnt.html %}
-  <a name="meetups"></a>
+  <a id="community"></a>
+  {% include community.html %}
+  <a id="meetups"></a>
   {% include meetups.html %}
-  <a name="collecties"></a>
-  {% include collecties.html %}
-  {% include github.html %}
-  <a name="swag"></a>
-  {% include swag.html %}
-  {% include partners.html %}
-  <a name="organisatie"></a>
+  <a id="organisatie"></a>
   {% assign people = site.data.mensen | where_exp: "mens", "mens.groups contains 'board'" %}
   {% include people.html %}
   {% include footer.html %}

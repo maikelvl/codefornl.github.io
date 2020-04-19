@@ -2,40 +2,58 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 1em;
     justify-content: space-between;
     .item {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         flex: 1 0 auto;
-        width: 28%;
+        width: 25%;
+        max-width: 300px;
         margin: 1em;
-        border: 1px solid $border-color;
+        border: 0px solid $border-color;
+        text-align: left;
     
         h4 {
             font-family: $header-font;
             color: $secondary-inverse;
             padding-top: 2em;
-            padding-left: 0.2em;
             padding-right: 0.2em;
             font-size: 1.3em;
             margin-bottom: 0;
         }
     
         p {
-            padding-left: 1em;
-            padding-right: 1em;
+
             flex-grow: 1;
         }
     
         .button {
-            font-family: $body-font;
+            font-family: $header-font;
+            font-size: 1.5em;
+            text-align: center;
             background: $secondary-inverse;
-            padding: 1em;
+            padding: 0.3em;
+            height: 30px;
+            }
+
+        .button:hover {
+            color: white;
+            background: $color1;
+            }
+        }
+        .item-tracer {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            flex: 1 0 auto;
+            width: 45%;
+            max-width: 500px;
+            margin: 1em;
+            border: 0px solid $border-color;
+            text-align: left;
         }
     }
-}
 
 @media #{$media-s} {
     .item-list {

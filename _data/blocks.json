@@ -5,17 +5,17 @@
             "programs": "Programma's"
         },
         "en": {
-            "tagline": "Together for the digital government",
+            "tagline": "Making government work in the digital age",
             "programs": "Programs"
         }
     },
     "office": {
         "nl": "Bezoekadres",
-        "en": "Office"
+        "en": "Visiting address"
     },
     "postal": {
         "nl": "Postadres",
-        "en": "Mail"
+        "en": "Postal address"
     },
     "website": {
         "nl": "Website",
@@ -31,12 +31,13 @@
     },
     "corona": {
         "nl": {
-            "title": "Civic Tech tegen Corona. Doe mee!",
+            "title": " Public Tech tegen Corona. </br > &nbsp;&nbsp; Doe mee! ",
+            "auteur": "- Milo van der Linden, voorzitter Code for NL",
             "link": "/corona",
             "link_title": "Lees meer"
         },
         "en": {
-            "title": "Civic Tech against Corona. Join us!",
+            "title": " Public Tech against Corona. </br > &nbsp;&nbsp; Join us! ",
             "link": "/en/corona",
             "link_title": "Read more"
         }
@@ -44,41 +45,41 @@
     "community": {
         "nl": {
             "title": "Community",
-            "content": "Wij zijn het inclusieve netwerk van developers en designers die open samenwerken aan een eerlijke digitale overheid voor en door de samenleving.",
-            "slack_tagline": "praat mee op Slack",
+            "content": "Wij zijn het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving.",
+            "slack_tagline": "Praat mee op Slack",
             "name": "naam",
             "email": "email",
             "signup": "Meld je aan"
         },
         "en": {
             "title": "Community",
-            "content": "We are the developers and designers who work together on an open and honest digital government and society.",
-            "slack_tagline": "Join the conversation on Slack",
+            "content": "We are the developers and designers collaborating on a fair and open digital government and digital society.",
+            "slack_tagline": "Join us on Slack",
             "name": "name",
             "email": "email",
-            "signup": "Sign up"
+            "signup": "Register"
         }
     },
     "meetups": {
         "nl": "Kijk op https://www.meetup.com/Code-For-NL",
-        "en": "Check https://www.meetup.com/Code-For-NL"
+        "en": "Please visit https://www.meetup.com/Code-For-NL"
     },
     "github": {
         "nl": "Kijk op https://github.com/codefornl",
-        "en": "Check https://github.com/codefornl"
+        "en": "Please visit https://github.com/codefornl"
     },
     "tfnt": {
-        "nl": "Meld je aan voor onze TECH FOR NON TECH trainingsdag over technologie en digitalisering van de overheid; voor iedereen in de overheid die meer grip wil op de kernconcepten achter digitale transformatie. Stuur voor meer informatie een mail naar <a href=\"info@codefor.nl\">info@codefor.nl</a>.",
-        "en": "Register for our TECH FOR NON TECH training day on technology and government digitization; for anyone in government who wants to get a better grip on the core concepts behind digital transformation. For more information, send an email to <a href=\"info@codefor.nl\">info@codefor.nl</a>."
+        "nl": "Meld je aan voor onze TECH FOR NON TECH trainingsdagen over technologie en digitalisering van de overheid; voor iedereen in de overheid die meer grip wil op de kernconcepten achter digitale transformatie. Stuur voor meer informatie een mail naar <a href=\"info@codefor.nl\">info@codefor.nl</a>.",
+        "en": "Register for our TECH FOR NON TECH training days on technology and government digital transformation; for anyone in government who wants to get a better grip on the core concepts behind digital government. For more information, please e-mail us at <a href=\"info@codefor.nl\">info@codefor.nl</a>."
     },
     "programs": {
         "nl": {
             "title": "Programma's",
-            "tagline": "We denken constructief mee en bouwen aan open source communities."
+            "tagline": "We denken constructief mee en bouwen open source communities."
         },
         "en": {
             "title": "Programs",
-            "tagline": "We think constructively and build open source communities."
+            "tagline": "We contribute to your project and build open source communities."
         }
     },
     "organisation": {
