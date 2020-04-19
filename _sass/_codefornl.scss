@@ -440,13 +440,13 @@ button {
 }
 
 .heroins__hover {
-    background: url(../img/heroins/jp.png) no-repeat center;
-    height: 420px;
-
+    .img__normal { display: block }
+    .img__alt { display: none }
 }
 
 .heroins__hover:hover {
-    background: url(../img/heroins/jp-quote.png) $color2 no-repeat center;
+    .img__normal { display: none }
+    .img__alt { display: block }
 }
 
 .heroins__txt {
@@ -816,5 +816,5 @@ blockquote p {
     width: 100%;
     background-color: $color3;
     background-image: url(../img/meetup.png);
-    
+
 }

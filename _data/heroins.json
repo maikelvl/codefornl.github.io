@@ -2,34 +2,40 @@
     "nl": [
         {
             "title": "WE LATEN ZIEN WAT MOGELIJK IS - VOOR EN MET GEWONE MENSEN",
-            "img": "/img/jp.png",
+            "img": "/img/heroins/jp.png",
+            "img-alt": "/img/heroins/jp-quote.png",
             "content": "Als open en inclusief netwerk van civic tech professionals en enthousiastelingen ondersteunen we elkaar bij het organiseren van bijeenkomsten, kennisdeling en samenwerking."
         },
         {
             "title": "WE VERSTERKEN OVERHEID EN MAATSCHAPPIJ (NIET POLITIEK)",
-            "img": "/img/ms.png",
+            "img": "/img/heroins/ms.png",
+            "img-alt": "/img/heroins/ms-quote.png",
             "content": "Samen bouwen we open en eerlijke technologie voor maatschappelijk nut en een betere digitale overheid, en werken we met de internationale civic tech community aan tools en <i>tech for good</i>."
         },
         {
-            "title": "WE WERKEN PUBLIEK, OPEN EN TRANSPARANT AAN EEN ECOSYSTEEM",
-            "img": "/img/at.png",
+            "title": "WE WERKEN OPEN EN TRANSPARANT AAN EEN ECOSYSTEEM",
+            "img": "/img/heroins/at.png",
+            "img-alt": "/img/heroins/at-quote.png",
             "content": "We helpen mensen begrijpen wat digitalisering is en hoe het werkt. Volg onze <a href=\"#tfnt\">TECH FOR NON TECH</a> training over technologie; voor iedereen in de overheid die meer grip wil op digitale transformatie. <a href=\"#tfnt\">Meer informatie</a>"
         }
     ],
     "en": [
         {
-            "title": "Open community",
-            "img": "/img/jp.png",
+            "title": "WE SHOW WHAT'S POSSIBLE - WITH AND FORE PEOPLE",
+            "img": "/img/heroins/jp.png",
+            "img-alt": "/img/heroins/jp-quote.png",
             "content": "As an open and inclusive network of civic tech professionals and enthusiasts, we support each other in organizing meetings, knowledge sharing and cooperation."
         },
         {
-            "title": "Tools & Tech",
-            "img": "/img/ms.png",
+            "title": "WE IMPROVE GOVERNMENT AND SOCIETY (NOT POLITICS)",
+            "img": "/img/heroins/ms.png",
+            "img-alt": "/img/heroins/ms-quote.png",
             "content": "Together we build open and fair technology for social benefit and a better digital government, and we work with the international civic tech community on tools and <i>tech for good</i>."
         },
         {
-            "title": "Advies & training",
-            "img": "/img/at.png",
+            "title": "WE'RE BUILDING AN OPEN ECOSYSTEM",
+            "img": "/img/heroins/at.png",
+            "img-alt": "/img/heroins/at-quote.png",
             "content": "We help people understand what digitization is and how it works. Take our <a href=\"#tfnt\">TECH FOR NON TECH</a> technology training; for everyone in the government who wants more control over digital transformation. <a href=\"#tfnt\">More information</a>"
         }
     ]

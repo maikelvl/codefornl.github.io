@@ -2,12 +2,14 @@
   {% for heroin in site.data.heroins[page.lang] %}
   <div class="heroins__item">
     <div class="heroins__hover">
+      <img class="img__normal" src="{{heroin.img}}">
+      <img class="img__alt" src="{{heroin.img-alt}}">
     </div>
     <div class="heroins__txt">
       <h2>{{heroin.title}}</h2>
       <p>{{heroin.content}}</p>
     </div>
   </div>
-  
+
   {% endfor %}
 </section>
