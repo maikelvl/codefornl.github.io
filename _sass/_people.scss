@@ -7,41 +7,25 @@
     width: 250px;
     border-bottom: 1px solid $highlight-inverse;
     padding: 1em;
-
-    .picture {
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
-    }
 }
 
 .person {
     display: block;
     margin: 0 auto;
+    .picture {
+        width: 50%;
+        border-radius: 50%;
+    }
 }
 
 @media #{$media-s} {
     .person-list {
         display: block;
-        .person {
-            .picture {
-                width: 50%;
-                border-radius: 50%;
-            }
-        }
     }
 }
 
 @media #{$media-xs} {
     .person-list {
         display: block;
-        .person {
-            width: 180px;
-            display: inline-block;
-            .picture {
-                width: 50%;
-                border-radius: 50%;
-            }
-        }
     }
 }
