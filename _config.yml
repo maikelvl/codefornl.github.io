@@ -1,7 +1,7 @@
 name: Code For NL
 sass:
   style: compressed
-defaulttags: 
+defaulttags:
   - code
   - for
   - nl

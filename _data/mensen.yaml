@@ -1,6 +1,6 @@
 - name: Milo van der Linden
   organisation: bestuur
-  function: 
+  function:
     nl: voorzitter
     en: chair
   email: milo@codefor.nl
@@ -11,7 +11,7 @@
 
 - name: Ivonne Jansen - Dings
   organisation: bestuur
-  function: 
+  function:
     nl: penningmeester
     en: treasurer
   email: ivonne@codefor.nl
@@ -23,7 +23,7 @@
 
 - name: Johan Groenen
   organisation: bestuur
-  function: 
+  function:
     nl: secretaris
     en: secretary
   email: johan@codefor.nl
@@ -38,7 +38,7 @@
 
 - name: Edo Plantinga
   organisation: bestuur
-  function: 
+  function:
     nl: bestuurslid
     en: board member
   email: edo@codefor.nl
@@ -50,7 +50,7 @@
 
 - name: Sander van Waal
   organisation: bestuur
-  function: 
+  function:
     nl: bestuurslid
     en: board member
   email: sander@codefor.nl
@@ -61,7 +61,7 @@
 
 - name: Safia Akkus
   organisation: programma
-  function: 
+  function:
     nl: community manager
     en: community manager
   email: safia@codefor.nl
@@ -73,7 +73,7 @@
 
 - name: Tamas Erkelens
   organisation: programma
-  function: 
+  function:
     nl: Gemeente Amsterdam
     en: City of Amsterdam
   email: t.erkelens@amsterdam.nl
@@ -85,7 +85,7 @@
 
 - name: Gerhard Dekker
   organisation: programma
-  function: 
+  function:
     nl: Hoofd DDC CBS
     en: Chief DDC CBS
   email: g.dekker@cbs.nl
@@ -96,7 +96,7 @@
 
 - name: Chris Vast
   organisation: programma
-  function: 
+  function:
     nl: VNG Realisatie
     en: VNG Realisatie
   img: /img/chris.jpg

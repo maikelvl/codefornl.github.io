@@ -1,4 +1,4 @@
-[ 
+[
     {
         "cat": "meedoen",
         "title": "kick-off",
@@ -41,6 +41,6 @@
         "cat":"meekijken",
         "title": "bijeenkomst: objectherkenning",
         "description": "Voor deze meekijksessie gaan we 4 maart naar Amsterdam, waar een tech team momenteel werkt aan de Object Detection Kit. Door middel van scanners op gemeentevoertuigen kan afval in buurten objectief in kaart worden gebracht. De software die hiervoor gebruikt wordt is open source beschikbaar.",
-        "signup-link": "https://www.meetup.com/Code-For-NL/events/268108950/"    
+        "signup-link": "https://www.meetup.com/Code-For-NL/events/268108950/"
     }
 ]
